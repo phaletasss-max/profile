@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manuel Vilcazan — Portafolio</title>
+<meta name="description" content="Estudiante de Ciberseguridad. CTFs, plataformas para la comunidad, hardware con ESP32 y software en producción.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0f14;
+    --surface: #121821;
+    --border: #1f2a37;
+    --text: #e6edf3;
+    --muted: #8b98a8;
+    --accent: #3ddc97;
+    --accent-2: #58a6ff;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f6f8fa;
+      --surface: #ffffff;
+      --border: #d0d7de;
+      --text: #1f2328;
+      --muted: #57606a;
+      --accent: #1a7f55;
+      --accent-2: #0969da;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 Inter, system-ui, sans-serif;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 56px 16px 80px; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  header .prompt { color: var(--accent); font-size: 14px; }
+  h1 { font-size: clamp(28px, 6vw, 42px); line-height: 1.15; margin: 8px 0 12px; }
+  .lead { color: var(--muted); font-size: 18px; max-width: 640px; margin: 0; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+  .links a {
+    color: var(--text); text-decoration: none; font-size: 14px;
+    border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px;
+  }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  section { margin-top: 56px; }
+  h2 {
+    font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 16px;
+  }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 18px 20px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 17px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .card a { color: var(--accent-2); text-decoration: none; font-size: 14px; }
+  .card a:hover { text-decoration: underline; }
+  .card .meta { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-size: 12px; color: var(--muted); border: 1px solid var(--border);
+    border-radius: 4px; padding: 1px 7px;
+  }
+  .featured { border-color: var(--accent); }
+  ul.plain { margin: 0; padding-left: 18px; color: var(--muted); }
+  ul.plain li { margin: 4px 0; }
+  ul.plain strong { color: var(--text); font-weight: 600; }
+  footer { margin-top: 64px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="prompt mono">$ whoami</div>
+    <h1>Manuel Vilcazan Mendoza</h1>
+    <p class="lead">
+      Estudiante de Ingeniería en Ciberseguridad (4.º ciclo, SENATI). Resuelvo retos, pero también
+      construyo: plataformas para la comunidad, hardware con microcontroladores y software que
+      hoy está en producción en empresas reales.
+    </p>
+    <nav class="links mono">
+      <a href="https://github.com/phaletasss-max" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/manvel-mendoz4-62993a383/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://shadowbyt3s.vercel.app/" target="_blank" rel="noopener">Shadowbyt3s</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2 class="mono">01 · Ciberseguridad y comunidad</h2>
+    <div class="grid">
+      <article class="card featured">
+        <h3>Shadowbyt3s</h3>
+        <p>Plataforma que creé y desarrollé para crear y publicar retos CTF, pensada para que la
+          comunidad aprenda practicando.</p>
+        <div class="meta"><span class="tag">CTF</span><span class="tag">TypeScript</span><span class="tag">Vercel</span></div>
+        <p style="margin-top:10px"><a href="https://shadowbyt3s.vercel.app/" target="_blank" rel="noopener">shadowbyt3s.vercel.app →</a></p>
+      </article>
+      <article class="card">
+        <h3>Hack The Box</h3>
+        <p>Compito en CTFs de HTB con un equipo organizado, como Cyber Apocalypse 2026.</p>
+        <div class="meta"><span class="tag">CTF</span><span class="tag">Trabajo en equipo</span></div>
+      </article>
+      <article class="card">
+        <h3>TryHackMe</h3>
+        <p>He completado varios learning paths (Web Fundamentals, Jr Penetration Tester, entre otros)
+          como parte de mi formación continua.</p>
+        <div class="meta"><span class="tag">Pentesting</span><span class="tag">Web</span></div>
+      </article>
+      <article class="card">
+        <h3>Hack the Andes · Black Box #01</h3>
+        <p>Hice ingeniería inversa de un servicio de precios oculto con solo 25 consultas: modelos
+          alternativos, simulación de 1,000 casos y mutation testing, cada hipótesis etiquetada
+          según su nivel de evidencia.</p>
+        <p style="margin-top:10px"><a href="https://github.com/phaletasss-max/hack-the-andes" target="_blank" rel="noopener">Ver repositorio →</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="mono">02 · Hardware e IoT</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Sistema biométrico con ESP32-S3</h3>
+        <p>Control por huella con ESP32-S3 (N16R8) y sensor AS608. Hice el prototipo completo:
+          firmware, modelado 3D del enclosure, impresión y ensamblaje.</p>
+        <div class="meta"><span class="tag">ESP32-S3</span><span class="tag">AS608</span><span class="tag">Impresión 3D</span></div>
+      </article>
+      <article class="card">
+        <h3>Red de intercomunicadores</h3>
+        <p>Implementé intercomunicadores basados en ESP32 con una PWA, que conectan la oficina con
+          el taller.</p>
+        <div class="meta"><span class="tag">ESP32</span><span class="tag">PWA</span><span class="tag">Redes</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="mono">03 · Software empresarial</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Sistema unificado de impresión y etiquetado</h3>
+        <p>Imprime en Godex (GE305) y Zebra. Incluye gestión de usuarios, editor de plantillas,
+          fotos y generación de códigos QR y de barras para trazabilidad y escaneo.</p>
+        <div class="meta"><span class="tag">Industrial</span><span class="tag">QR / Barcode</span><span class="tag">Trazabilidad</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="mono">04 · Web en producción</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Crispitex</h3>
+        <p>Sitio web en producción.</p>
+        <p style="margin-top:10px"><a href="https://crispitex.pe/" target="_blank" rel="noopener">crispitex.pe →</a></p>
+      </article>
+      <article class="card">
+        <h3>Alsimtex</h3>
+        <p>Sitio web en producción.</p>
+        <p style="margin-top:10px"><a href="https://www.alsimtex.com/" target="_blank" rel="noopener">alsimtex.com →</a></p>
+      </article>
+      <article class="card">
+        <h3>Camitex AQP</h3>
+        <p>Sitio web en producción.</p>
+        <p style="margin-top:10px"><a href="https://camitex-aqp.vercel.app/" target="_blank" rel="noopener">camitex-aqp.vercel.app →</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="mono">Stack</h2>
+    <ul class="plain">
+      <li><strong>Seguridad:</strong> CTF (web, reversing), pentesting, Kali Linux</li>
+      <li><strong>Desarrollo:</strong> JavaScript / TypeScript, Vue, Node.js, Python</li>
+      <li><strong>Hardware:</strong> ESP32 / ESP32-S3, C++, sensores biométricos, modelado e impresión 3D</li>
+      <li><strong>Despliegue:</strong> Vercel, Git / GitHub</li>
+    </ul>
+  </section>
+
+  <footer class="mono">© 2026 Manuel Vilcazan Mendoza</footer>
+</div>
+</body>
+</html>
