@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-cv",
+  "version": "1.0.0",
+  "description": "Portafolio y CV estático de Manuel Vilcazan Mendoza",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:translations": "python3 scripts/build_translations.py && python3 scripts/bundle_i18n.py",
+    "build:cv": "node scripts/build-cv.mjs",
+    "build": "npm run build:translations && npm run build:cv"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0"
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "_meta": {
+    "machine_translated": false,
+    "reviewed": true
+  },
+  "meta": {
+    "title": "Manuel Vilcazan — Portafolio & CV",
+    "description": "Estudiante de Ingeniería en Ciberseguridad. CTFs, laboratorios para la comunidad, hardware con ESP32 y software en producción.",
+    "og_title": "Manuel Vilcazan — Ciberseguridad · Dev · Maker",
+    "og_description": "CTFs, laboratorios para la comunidad, hardware con ESP32 y software en producción."
+  },
+  "identity": {
+    "name": "Manuel Vilcazan Mendoza",
+    "title": "Estudiante de Ingeniería en Ciberseguridad",
+    "eyebrow": "// ciberseguridad · dev · maker",
+    "location": "Arequipa, Perú",
+    "availability": "Disponible para prácticas pre-profesionales y empleo · Presencial en Arequipa y remoto",
+    "email_user": "phaletasss",
+    "email_domain": "gmail.com",
+    "summary": "Estudiante de Ingeniería en Ciberseguridad (4.º ciclo, SENATI). No me quedo en resolver retos: construyo laboratorios para la comunidad, hardware con microcontroladores y software que hoy está en producción en empresas reales.",
+    "links": {
+      "github": "https://github.com/phaletasss-max",
+      "linkedin": "https://www.linkedin.com/in/manvel-mendoz4-62993a383/",
+      "tryhackme": "https://tryhackme.com/p/phaletasss",
+      "hackthebox": "https://profile.hackthebox.com/profile/019f66e7-2ec7-71af-acae-a471342268cb",
+      "htb_ctf": "https://ctf.hackthebox.com/user/profile/1091239"
+    },
+    "stats": [
+      { "value": "10", "label": "retos de HTB documentados con writeup" },
+      { "value": "6", "label": "categorías CTF: web, pwn, rev, crypto, forensics, blockchain" },
+      { "value": "4", "label": "sitios en producción" },
+      { "value": "2", "label": "prototipos con ESP32 construidos de punta a punta" }
+    ],
+    "languages": [
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Inglés", "level": "Intermedio" }
+    ]
+  },
+  "ui": {
+    "nav": {
+      "brand": ">_ mvilcazan",
+      "about": "sobre mí",
+      "education": "educación",
+      "experience": "experiencia",
+      "projects": "proyectos",
+      "competencies": "certificaciones & ctf",
+      "stack": "stack",
+      "contact": "contacto",
+      "download_cv": "Descargar CV (PDF)",
+      "language_selector_aria": "Seleccionar idioma"
+    },
+    "actions": {
+      "view_projects": "Ver proyectos",
+      "github_btn": "GitHub ↗",
+      "linkedin_btn": "LinkedIn ↗",
+      "download_cv_btn": "Descargar CV (PDF)",
+      "copy_email": "Copiar correo",
+      "email_copied": "¡Copiado!",
+      "close_modal": "Cerrar",
+      "view_preview": "Ver evidencia",
+      "open_pdf": "Abrir PDF ↗",
+      "view_original": "Ver imagen completa ↗"
+    },
+    "filters": {
+      "aria_label": "Filtrar proyectos",
+      "all": "todos",
+      "sec": "seguridad",
+      "hw": "hardware",
+      "sw": "software",
+      "web": "web",
+      "nasa": "nasa apps"
+    },
+    "badges": {
+      "in_production": "en vivo",
+      "in_use": "en uso",
+      "featured": "Destacado · Comunidad",
+      "prototype": "Prototipo · NASA Space Apps 2026",
+      "course": "Curso de Cisco Networking Academy",
+      "badge_rank": "Puesto",
+      "todo_tag": "Pendiente de confirmación"
+    },
+    "sections": {
+      "about_num": "01",
+      "about_title": "Sobre mí",
+      "about_sub": "Mi perfil es híbrido: pienso como atacante, construyo como desarrollador y armo mi propio hardware. Me gusta cerrar el ciclo completo, desde la idea hasta que alguien la usa.",
+      "education_num": "02",
+      "education_title": "Educación",
+      "education_sub": "Formación técnica rigurosa en ciberseguridad, complementada con autoaprendizaje continuo y proyección universitaria.",
+      "experience_num": "03",
+      "experience_title": "Experiencia",
+      "experience_sub": "Práctica aplicada en empresas y despliegues reales en producción, desde visión artificial hasta sistemas de planta y desarrollo web.",
+      "projects_num": "04",
+      "projects_title": "Proyectos",
+      "projects_sub": "Sistemas en producción, herramientas de seguridad, desarrollos de hardware y prototipos espaciales.",
+      "competencies_num": "05",
+      "competencies_title": "Certificaciones, CTFs y Cursos",
+      "competencies_sub": "Participación activa en competencias internacionales de ciberseguridad, rutas formativas y laboratorios técnicos.",
+      "stack_num": "06",
+      "stack_title": "Stack",
+      "stack_sub": "Herramientas, tecnologías y entornos que empleo en análisis de seguridad, desarrollo y hardware.",
+      "contact_title": "¿Construimos algo?",
+      "contact_sub": "Busco equipos donde pueda romper cosas, arreglarlas y ponerlas en producción. Lo más rápido es contactarme por LinkedIn o enviarme un correo.",
+      "footer_copy": "© 2026 Manuel Vilcazan Mendoza",
+      "ai_translation_notice": "Traducción asistida por IA"
+    }
+  },
+  "about_pillars": [
+    {
+      "ico": "red / blue",
+      "title": "Seguridad ofensiva y defensiva",
+      "text": "Compito en CTFs de Hack The Box con mi equipo, avanzo en rutas de TryHackMe y construyo herramientas defensivas propias."
+    },
+    {
+      "ico": "dev",
+      "title": "Software que se usa",
+      "text": "Webs en vivo para empresas textiles del sur del Perú y un sistema de etiquetado industrial para planta."
+    },
+    {
+      "ico": "maker",
+      "title": "Hardware e IoT",
+      "text": "Prototipos con ESP32: control biométrico con enclosure diseñado e impreso en 3D, e intercomunicadores para planta."
+    }
+  ],
+  "education": [
+    {
+      "institution": "SENATI CFP Arequipa",
+      "degree": "Ingeniería en Ciberseguridad (programa técnico)",
+      "period": "2025 – 2027 (previsto)",
+      "status": "Actualmente cursando el 4.º ciclo",
+      "details": "Formación técnica especializada en seguridad en redes, administración de sistemas seguros, análisis de vulnerabilidades y respuesta a incidentes.",
+      "is_todo": false
+    },
+    {
+      "institution": "Institución por definir (Convalidación)",
+      "degree": "Convalidación a Ingeniería en Ciberseguridad",
+      "period": "Egreso previsto a fines de 2029",
+      "status": "TODO: Institución y plan curricular pendientes de confirmación formal",
+      "details": "Plan de continuidad académica para obtención de título profesional universitario.",
+      "is_todo": true
+    }
+  ],
+  "experience": [
+    {
+      "role": "Practicante Pre-Profesional de Ciberseguridad y Sistemas",
+      "company": "Innovatech CMC E.I.R.L.",
+      "location": "Arequipa, Perú",
+      "period": "TODO: Fechas por confirmar (Prácticas concluidas)",
+      "is_todo": true,
+      "bullets": [
+        "Sistema de monitoreo y análisis de actividad con cámaras Hikvision (6 cámaras): pipeline RTSP + FFmpeg + YOLOv8 + tracking, implementando identidad lógica por persona (sin reconocimiento facial ni biométrico).",
+        "Persistencia en base de datos SQLite (eventos, detecciones, sesiones), reconexión automática de streams, servicio watchdog de procesos, backups con verificación de integridad y rotación de logs.",
+        "Interfaz web en React + TypeScript + Tailwind para visualización en tiempo real del estado de cámaras, actividad de planta e historial de eventos.",
+        "Apoyo en infraestructura física de red: tendido y ponchado de cableado estructurado UTP con conectores RJ45, e integración de un NVR para monitoreo por parte de gerencia."
+      ]
+    },
+    {
+      "role": "Desarrollador Freelance & Proyectos para Clientes",
+      "company": "Clientes en el sur del Perú",
+      "location": "Arequipa, Perú",
+      "period": "TODO: Fechas por confirmar",
+      "is_todo": true,
+      "bullets": [
+        "Crispitex: Sitio web corporativo con cotizador inmediato y logística hacia el sur del Perú para fábrica textil de napa siliconada y almohadas.",
+        "AlSimTex: Catálogo digital responsive en Vue para mayoristas y minoristas de ropa de cama y protectores.",
+        "Camitex: Tienda en línea de ropa de cama desplegada para distribución en el sur del país.",
+        "Sistema unificado de impresión y etiquetado industrial para impresoras Godex (GE305) y Zebra con trazabilidad por escaneo de códigos QR y de barras.",
+        "Red de intercomunicadores industriales con ESP32 y Progressive Web App (PWA) para comunicación directa entre oficina y taller de planta."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "shadowbytes",
+      "title": "ShadowBytes",
+      "kind": "Destacado · Comunidad",
+      "category": "sec web",
+      "featured": true,
+      "description": "Plataforma de laboratorios guiados de ciberseguridad en español. La diseñé, la desarrollé y la desplegué yo, para que cualquiera pueda aprender haciendo.",
+      "bullets": [
+        "Rutas formativas y laboratorios CTF guiados, con práctica responsable",
+        "Pensada para aprender desde Windows con WSL, sin tener que montar una VM",
+        "El progreso de cada estudiante queda guardado"
+      ],
+      "tags": ["TypeScript", "CTF", "WSL", "Vercel"],
+      "links": [
+        { "label": "shadowbyt3s.vercel.app ↗", "url": "https://shadowbyt3s.vercel.app/" }
+      ],
+      "status": "en vivo"
+    },
+    {
+      "id": "htb-resolution",
+      "title": "HTB Resolution: writeups y launcher",
+      "kind": "Seguridad · CTF",
+      "category": "sec",
+      "description": "10 retos de Hack The Box documentados paso a paso: análisis, vulnerabilidad, explotación y código. Incluye un launcher en Python que levanta con Docker los retos web y misc para practicarlos en local.",
+      "tags": ["Python", "pwntools", "Ghidra", "Docker"],
+      "links": [
+        { "label": "Ver detalle ↓", "url": "#ctf" },
+        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/resolution" }
+      ]
+    },
+    {
+      "id": "its-4-s3cr3-t",
+      "title": "its_4_s3cr3_t",
+      "kind": "Seguridad · Herramienta",
+      "category": "sec sw",
+      "description": "Caja de herramientas defensivas en Python que corre 100% en local: cifrado de texto, bóveda SQLite, contraseñas, 2FA, hashes y detección de secretos expuestos.",
+      "bullets": [
+        "Cifrado con scrypt + AES-256-GCM, sin reinventar la criptografía",
+        "Códigos TOTP/2FA y hashes SHA-256, SHA-512 y BLAKE2b",
+        "CI con GitHub Actions en Windows y Linux, que publica el .exe con su SHA-256"
+      ],
+      "tags": ["Python", "Criptografía", "SQLite", "CI/CD"],
+      "links": [
+        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/its_4_s3cr3_t" }
+      ]
+    },
+    {
+      "id": "hack-the-andes",
+      "title": "Hack the Andes 2026 · Black Box #01",
+      "kind": "Competencia",
+      "category": "sec",
+      "description": "Ingeniería inversa de un servicio de precios oculto con solo 25 consultas. Armé modelos alternativos, una simulación de 1,000 casos y mutation testing, y etiqueté cada hipótesis según la evidencia que tenía detrás.",
+      "tags": ["Reverse engineering", "JavaScript", "Testing"],
+      "links": [
+        { "label": "49.20% de réplica exacta sobre 1,000 envíos ocultos", "status_only": true }
+      ]
+    },
+    {
+      "id": "firecal-global",
+      "title": "FireCal Global",
+      "kind": "Prototipo · NASA Space Apps 2026",
+      "category": "nasa web sw",
+      "description": "Explorador web de actividad de fuego mundial que armoniza datos satelitales MODIS y VIIRS (2001–2025, celdas de 0.25°), con mapa interactivo, calendario de quema por mes, tendencia a 25 años y comparación de la semana actual.",
+      "bullets": [
+        "Prototipo de práctica frontend elaborado para el reto NASA Space Apps 2026 (inscripción de equipo extemporánea)",
+        "Armonización de series temporales de anomalías térmicas MODIS y VIIRS en celdas geoespaciales",
+        "Construido con React, TypeScript y backend de procesamiento de datos en Python"
+      ],
+      "tags": ["React", "TypeScript", "Python", "MODIS / VIIRS", "NASA Space Apps"],
+      "links": [
+        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026" }
+      ],
+      "image": "photos/sensor_calor.webp",
+      "image_full": "photos/sensor_calor.png",
+      "image_alt": "Captura de la interfaz de FireCal Global mostrando el mapa de calor mundial y el calendario de quema"
+    },
+    {
+      "id": "base-sandbox",
+      "title": "Base Sandbox",
+      "kind": "Prototipo · NASA Space Apps 2026",
+      "category": "nasa sw",
+      "description": "Simulador interactivo (\"Build a Junior Astronaut Mission Trainer\") para diseñar una base lunar o marciana y gestionar soporte vital a lo largo de una misión espacial.",
+      "bullets": [
+        "Prototipo de práctica para el reto NASA Space Apps 2026",
+        "Cálculo continuo de recursos críticos: oxígeno, agua, comida, reserva energética en baterías y dosis de radiación acumulada",
+        "Selección de ubicación (ej. polo sur lunar / Shackleton) y configuración de tripulación y blindaje"
+      ],
+      "tags": ["React", "TypeScript", "Simulación", "NASA Space Apps"],
+      "links": [
+        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026" }
+      ],
+      "image": "photos/juego_simulador.webp",
+      "image_full": "photos/juego_simulador.png",
+      "image_alt": "Captura de Base Sandbox con controles de soporte vital, blindaje y estado de misión lunar"
+    },
+    {
+      "id": "simulador-viajes",
+      "title": "Simulador de Viajes Interplanetarios",
+      "kind": "Prototipo · NASA Space Apps 2026",
+      "category": "nasa sw",
+      "description": "Simulador de gestión para una agencia espacial (Agencia Espacial Andina) con cartera de contratos de misión, cálculo de presupuestos y física de transferencias orbitales.",
+      "bullets": [
+        "Prototipo de práctica para el reto NASA Space Apps 2026",
+        "Cálculo de delta-v (Δv) para inserción en órbita baja, salida y llegada a la Luna, Marte, Venus y Júpiter",
+        "Gestión de ventanas de lanzamiento y firma de contratos científicos y de cartografía"
+      ],
+      "tags": ["JavaScript", "Física orbital", "Simulación", "NASA Space Apps"],
+      "links": [
+        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026" }
+      ],
+      "image": "photos/simulador_viajes.webp",
+      "image_full": "photos/simulador_viajes.png",
+      "image_alt": "Captura del simulador orbital mostrando la Tierra, la Luna y la cartera de contratos de misión"
+    },
+    {
+      "id": "esp32-biometrico",
+      "title": "Sistema biométrico con ESP32-S3",
+      "kind": "Hardware · IoT",
+      "category": "hw",
+      "description": "Control por huella dactilar con microcontrolador ESP32-S3 (N16R8) y sensor óptico AS608. Hice el prototipo de punta a punta: firmware en C++, modelado 3D del enclosure, impresión y ensamblaje.",
+      "tags": ["ESP32-S3", "AS608", "C++", "Impresión 3D"]
+    },
+    {
+      "id": "intercomunicadores",
+      "title": "Red de intercomunicadores",
+      "kind": "Hardware · Redes",
+      "category": "hw",
+      "description": "Intercomunicadores con ESP32 y una Progressive Web App (PWA) que comunican la oficina con el taller de producción, evitando traslados innecesarios en planta.",
+      "tags": ["ESP32", "PWA", "Redes"],
+      "links": [
+        { "label": "en uso", "status_only": true }
+      ]
+    },
+    {
+      "id": "etiquetado-industrial",
+      "title": "Sistema unificado de impresión y etiquetado",
+      "kind": "Software empresarial",
+      "category": "sw",
+      "description": "Imprime en equipos industriales Godex (GE305) y Zebra desde una sola aplicación web, integrando trazabilidad por escaneo.",
+      "bullets": [
+        "Gestión de usuarios y editor gráfico de plantillas",
+        "Inclusión de fotos de producto en la etiqueta",
+        "Generación automática de códigos QR y códigos de barras"
+      ],
+      "tags": ["Industrial", "QR / Barcode", "Trazabilidad"]
+    },
+    {
+      "id": "crispitex",
+      "title": "Crispitex",
+      "kind": "Web · Cliente",
+      "category": "web",
+      "description": "Sitio de una fábrica de napa siliconada y almohadas en Arequipa, con cotización al instante y envíos al sur del Perú.",
+      "links": [
+        { "label": "crispitex.pe ↗", "url": "https://crispitex.pe/" }
+      ],
+      "status": "en vivo"
+    },
+    {
+      "id": "alsimtex",
+      "title": "AlSimTex",
+      "kind": "Web · Cliente",
+      "category": "web",
+      "description": "Catálogo online de sábanas, edredones, frazadas y protectores, con estructura de precios mayoristas y minoristas.",
+      "tags": ["Vue"],
+      "links": [
+        { "label": "alsimtex.com ↗", "url": "https://www.alsimtex.com/" }
+      ],
+      "status": "en vivo"
+    },
+    {
+      "id": "camitex",
+      "title": "Camitex",
+      "kind": "Web · Cliente",
+      "category": "web",
+      "description": "Tienda en línea de ropa de cama que atiende al mercado del sur del Perú.",
+      "links": [
+        { "label": "camitex-aqp.vercel.app ↗", "url": "https://camitex-aqp.vercel.app/" }
+      ],
+      "status": "en vivo"
+    },
+    {
+      "id": "tafa",
+      "title": "TAFA · Turismo Arequipa",
+      "kind": "Web · Propuesta",
+      "category": "web",
+      "description": "Landing de un hub que centraliza la información turística de Arequipa (hoy dispersa): servicios, atractivos destacados, mapa interactivo y enlaces institucionales.",
+      "tags": ["React", "TypeScript", "Vite", "Tailwind"],
+      "links": [
+        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/tafa-arequipa" }
+      ]
+    }
+  ],
+  "competencies": {
+    "ctf_competitions": [
+      {
+        "id": "kasp-2026",
+        "name": "Kaspersky{CTF} 2026",
+        "official_event": "Kaspersky{CTF} — Regional Stage: North America, South America, Caribbean",
+        "team": "ShwBytes_ (Senati / Perú)",
+        "rank": "Puesto 43",
+        "badge": "Puesto 43 Regional",
+        "score": "348 puntos",
+        "date": "29 ago. 2026",
+        "description": "Participación con el equipo ShwBytes_ representando a Senati Perú en la liga regional de América, resolviendo retos de Reverse Engineering, Crypto y Misc.",
+        "preview_image": "photos/Certificate-KASPERKSY.webp",
+        "original_file": "photos/Certificate-KASPERKSY.png",
+        "is_pdf": false
+      },
+      {
+        "id": "htb-ca-2026",
+        "name": "Hack The Box Cyber Apocalypse CTF 2026: The Salt Crown",
+        "official_event": "Hack The Box Cyber Apocalypse CTF 2026: The Salt Crown (Red Team)",
+        "team": "AQP-TEAM",
+        "rank": "Puesto 133",
+        "badge": "Puesto 133 · Primer CTF",
+        "score": "66,500 puntos (133/136 retos)",
+        "date": "24–29 jul. 2026",
+        "description": "Mi primer CTF oficial. Competencia red team con el equipo AQP-TEAM, logrando el puesto 133 a nivel global resolviendo 133 de 136 retos propuestos.",
+        "preview_image": "photos/preview-xxaquelarrexx-redteam.webp",
+        "original_file": "photos/Certificate-xxaquelarrexx-redteam.pdf",
+        "is_pdf": true
+      },
+      {
+        "id": "htb-holmes-2026",
+        "name": "Hack The Box Holmes CTF 2026: The Reichenbach Directive",
+        "official_event": "Hack The Box Holmes CTF 2026: The Reichenbach Directive (Blue Team / Sherlock)",
+        "team": "AQP-TEAM",
+        "rank": "Puesto 474",
+        "badge": "Puesto 474",
+        "score": "3,950 puntos (50/111 retos)",
+        "date": "17–21 sep. 2026",
+        "description": "Competencia blue team enfocada en análisis forense, DFIR y resolución de sherlocks investigativos junto al equipo AQP-TEAM.",
+        "preview_image": "photos/preview-xxaquelarrexx-blueteam.webp",
+        "original_file": "photos/Certificate-xxaquelarrexx-blueteam.pdf",
+        "is_pdf": true
+      },
+      {
+        "id": "cibersecuni-2026",
+        "name": "CiberSecUNI Admission CTF 2026",
+        "official_event": "CiberSecUNI Admission CTF 2026 (Organizado por CiberSecUNI & Asia Pacific University)",
+        "team": "Shwbytes",
+        "rank": "Puesto 21",
+        "badge": "Puesto 21",
+        "score": "8,535 puntos (22 retos)",
+        "date": "22 ago. 2026",
+        "description": "Puesto 21 de la tabla general con 8,535 puntos en el CTF de admisión organizado por CiberSecUNI. Certificado de participación emitido por David Ramos y Dr. Thang Ka Fei.",
+        "preview_image": "photos/preview-cibersecuni-cert.webp",
+        "ranking_image": "photos/Ctf-CiberSecUNI.webp",
+        "original_file": "photos/MANUEL VILCAZAN MENDOZA CiberSecUNI Admission CTF Participation Cert.pdf",
+        "is_pdf": true
+      },
+      {
+        "id": "kbxac-2026",
+        "name": "kBxAc CTF 2026",
+        "official_event": "kBxAc CTF 2026 (Organizado por kBxAc)",
+        "team": "unqval1f1ed",
+        "rank": "Puesto 277",
+        "badge": "Puesto 277 · Participación",
+        "date": "10 oct. 2026",
+        "description": "Participación individual con el alias unqval1f1ed en retos seleccionados durante la jornada de competencia.",
+        "preview_image": "photos/Certificate-HBXAC.webp",
+        "original_file": "photos/Certificate-HBXAC.png",
+        "is_pdf": false
+      }
+    ],
+    "platforms": {
+      "portswigger": {
+        "title": "PortSwigger Web Security Academy",
+        "stat": "20 labs resueltos (17 Apprentice, 3 Practitioner)",
+        "topics": "SQLi, SSRF, OS command injection, path traversal, control de acceso, autenticación, WebSockets, subida de archivos, API testing.",
+        "tools": "Burp Suite y mitmweb (en aprendizaje)."
+      },
+      "tryhackme": {
+        "title": "TryHackMe",
+        "url": "https://tryhackme.com/p/phaletasss",
+        "description": "Práctica continua en rutas de aprendizaje de ciberseguridad ofensiva y defensiva."
+      },
+      "hackthebox": {
+        "title": "Hack The Box",
+        "url": "https://profile.hackthebox.com/profile/019f66e7-2ec7-71af-acae-a471342268cb",
+        "description": "10 retos documentados a fondo con writeups técnicos, análisis y scripts de explotación en el repositorio resolution."
+      }
+    },
+    "cisco_courses": {
+      "disclaimer": "Nota: Estos registros corresponden a Cursos de Cisco Networking Academy, no a certificaciones industriales.",
+      "items": [
+        { "title": "Curso: CCNA: Introducción a las redes", "date": "18 feb. 2026" },
+        { "title": "Curso: Conceptos básicos de hardware de computadora", "date": "19 feb. 2026" },
+        { "title": "Curso: Introducción a la ciencia de datos", "date": "24 feb. 2026" },
+        { "title": "Curso: Introducción al Internet de las Cosas", "date": "28 feb. 2026" },
+        { "title": "Curso: Conceptos básicos de redes", "date": "28 mar. 2026" },
+        { "title": "Curso: Conciencia digital", "date": "16 abr. 2026" },
+        { "title": "Curso: Uso de computadoras y dispositivos móviles", "date": "23 abr. 2026" },
+        { "title": "Curso: Introducción a la ciberseguridad", "date": "23 may. 2026" }
+      ],
+      "badges_summary": "Insignias de módulo obtenidas en Cisco Networking Academy (nov. 2025 y oct. 2026): System Safeguards, Threat Analysis y Cybersecurity Administration."
+    },
+    "ctf_writeups": {
+      "title": "CTF: lo que he roto",
+      "sub": "Una muestra de los retos de Hack The Box que documenté en resolution. Cada uno tiene su writeup con el análisis y el código de explotación.",
+      "repo_url": "https://github.com/phaletasss-max/resolution",
+      "honesty_note": "Resueltos con asistencia de IA (Claude Code). El reversing se hizo solo en estático, sin ejecutar binarios no confiables.",
+      "table_headers": {
+        "challenge": "Reto",
+        "category": "Categoría",
+        "technique": "Técnica"
+      },
+      "items": [
+        { "name": "OmniWatch", "cat": "web", "tech": "Cadena de 6 vulnerabilidades: cache-key confusion en Varnish, HTTP response splitting, XSS, LFI, SQLi y JWT forgery" },
+        { "name": "Blueprint Heist", "cat": "web", "tech": "SSRF en wkhtmltopdf, leak de JWT y SQLi en GraphQL hasta RCE con plantillas EJS" },
+        { "name": "Blessed", "cat": "crypto", "tech": "EC-LCG roto con Coppersmith + LLL, y rogue-key attack sobre firmas BLS" },
+        { "name": "Void", "cat": "pwn", "tech": "Stack overflow sin leak, resuelto con ret2dlresolve" },
+        { "name": "Satellite Hijack", "cat": "rev", "tech": "Backdoor en 3 capas: env var ofuscada, XOR con memfrob y hook de read()" },
+        { "name": "Prison Pipeline", "cat": "misc", "tech": "Supply-chain: SSRF con file://, robo de token .npmrc y paquete npm envenenado" },
+        { "name": "Phreaky", "cat": "forensics", "tech": "PCAP de SMTP: extraer 15 ZIPs protegidos y reensamblar el PDF" },
+        { "name": "NotADemocraticElection", "cat": "blockchain", "tech": "Colisión en abi.encodePacked para secuestrar el peso de voto" }
+      ]
+    }
+  },
+  "stack": [
+    {
+      "category": "Seguridad",
+      "tags": [
+        "Web exploitation",
+        "Pwn",
+        "Reversing",
+        "Crypto",
+        "Forensics",
+        "Ghidra",
+        "pwntools",
+        "Kali / WSL",
+        "Burp Suite",
+        "mitmweb (en aprendizaje)"
+      ]
+    },
+    {
+      "category": "Desarrollo",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Vue",
+        "React",
+        "Vite",
+        "Tailwind",
+        "Node.js",
+        "SQLite"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "tags": [
+        "ESP32 / ESP32-S3",
+        "C++",
+        "Sensores biométricos (AS608)",
+        "Modelado 3D",
+        "Impresión 3D",
+        "Impresoras Godex / Zebra"
+      ]
+    },
+    {
+      "category": "Infra y flujo",
+      "tags": [
+        "Git / GitHub",
+        "GitHub Actions",
+        "Docker",
+        "Vercel",
+        "PWA",
+        "RTSP / FFmpeg"
+      ]
+    }
+  ],
+  "terminal": {
+    "whoami_prompt": "$ whoami",
+    "whoami_reply": "manuel · ciberseguridad @ SENATI (4.º ciclo)",
+    "ls_prompt": "$ ls ~/proyectos",
+    "ls_reply": "shadowbytes/  htb-writeups/  esp32-biometrico/\netiquetado-industrial/  intercom/  webs-clientes/  nasa-prototypes/",
+    "cat_prompt": "$ cat focus.txt",
+    "cat_reply": "romper → entender → construir → shippear"
+  }
+}
