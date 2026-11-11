@@ -7,7 +7,7 @@
   "scripts": {
     "build:translations": "python3 scripts/build_translations.py && python3 scripts/bundle_i18n.py",
     "build:cv": "node scripts/build-cv.mjs",
-    "build": "npm run build:translations && npm run build:cv"
+    "build": "npm run build:translations"
   },
   "devDependencies": {
     "playwright": "^1.65.0"

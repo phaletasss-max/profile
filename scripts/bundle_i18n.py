@@ -1,7 +1,7 @@
 import os
 import json
 
-base_dir = "/mnt/d/proyects/profile/i18n"
+base_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "i18n")
 config_file = os.path.join(base_dir, "config.json")
 with open(config_file, "r", encoding="utf-8") as f:
     config = json.load(f)
