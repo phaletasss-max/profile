@@ -178,9 +178,18 @@
       "period": "TODO: Fechas por confirmar",
       "is_todo": true,
       "bullets": [
-        "Crispitex: Sitio web corporativo con cotizador inmediato y logística hacia el sur del Perú para fábrica textil de napa siliconada y almohadas.",
-        "AlSimTex: Catálogo digital responsive en Vue para mayoristas y minoristas de ropa de cama y protectores.",
-        "Camitex: Tienda en línea de ropa de cama desplegada para distribución en el sur del país.",
+        {
+          "text": "Crispitex: Sitio web corporativo con cotizador inmediato y logística hacia el sur del Perú para fábrica textil de napa siliconada y almohadas.",
+          "url": "https://crispitex.pe/"
+        },
+        {
+          "text": "AlSimTex: Catálogo digital responsive en Vue para mayoristas y minoristas de ropa de cama y protectores.",
+          "url": "https://www.alsimtex.com/"
+        },
+        {
+          "text": "Camitex: Tienda en línea de ropa de cama desplegada para distribución en el sur del país.",
+          "url": "https://camitex-aqp.vercel.app/"
+        },
         "Sistema unificado de impresión y etiquetado industrial para impresoras Godex (GE305) y Zebra con trazabilidad por escaneo de códigos QR y de barras.",
         "Red de intercomunicadores industriales con ESP32 y Progressive Web App (PWA) para comunicación directa entre oficina y taller de planta."
       ]
@@ -226,10 +235,6 @@
         "Docker"
       ],
       "links": [
-        {
-          "label": "Ver detalle ↓",
-          "url": "#ctf"
-        },
         {
           "label": "repo ↗",
           "url": "https://github.com/phaletasss-max/resolution"
@@ -543,6 +548,19 @@
         "description": "Participación individual con el alias unqval1f1ed en retos seleccionados durante la jornada de competencia.",
         "preview_image": "photos/Certificate-HBXAC.webp",
         "original_file": "photos/Certificate-HBXAC.png",
+        "is_pdf": false
+      },
+      {
+        "id": "hack-the-andes-2026-b2",
+        "name": "Hack the Andes 2026 · Broken Agent #02 — The Scheduler",
+        "official_event": "Hack the Andes 2026 — Broken Agent #02: The Scheduler",
+        "team": "Individual",
+        "rank": "Puesto 3",
+        "badge": "Puesto 3 · 100/100",
+        "score": "100/100 puntos",
+        "date": "17–18 oct. 2026",
+        "description": "Top 20 público (100 participantes, 30 horas). Reto: auditar un job scheduler generado por IA cuyos tests públicos ya pasaban y hacerlo confiable bajo condiciones reales de producción. Puesto 3 en ranking oficial.",
+        "url": "https://hacktheandes.com/",
         "is_pdf": false
       }
     ],

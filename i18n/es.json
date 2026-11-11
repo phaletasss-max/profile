@@ -26,14 +26,32 @@
       "htb_ctf": "https://ctf.hackthebox.com/user/profile/1091239"
     },
     "stats": [
-      { "value": "10", "label": "retos de HTB documentados con writeup" },
-      { "value": "6", "label": "categorías CTF: web, pwn, rev, crypto, forensics, blockchain" },
-      { "value": "4", "label": "sitios en producción" },
-      { "value": "2", "label": "prototipos con ESP32 construidos de punta a punta" }
+      {
+        "value": "10",
+        "label": "retos de HTB documentados con writeup"
+      },
+      {
+        "value": "6",
+        "label": "categorías CTF: web, pwn, rev, crypto, forensics, blockchain"
+      },
+      {
+        "value": "4",
+        "label": "sitios en producción"
+      },
+      {
+        "value": "2",
+        "label": "prototipos con ESP32 construidos de punta a punta"
+      }
     ],
     "languages": [
-      { "name": "Español", "level": "Nativo" },
-      { "name": "Inglés", "level": "Intermedio" }
+      {
+        "name": "Español",
+        "level": "Nativo"
+      },
+      {
+        "name": "Inglés",
+        "level": "Intermedio"
+      }
     ]
   },
   "ui": {
@@ -160,9 +178,18 @@
       "period": "TODO: Fechas por confirmar",
       "is_todo": true,
       "bullets": [
-        "Crispitex: Sitio web corporativo con cotizador inmediato y logística hacia el sur del Perú para fábrica textil de napa siliconada y almohadas.",
-        "AlSimTex: Catálogo digital responsive en Vue para mayoristas y minoristas de ropa de cama y protectores.",
-        "Camitex: Tienda en línea de ropa de cama desplegada para distribución en el sur del país.",
+        {
+          "text": "Crispitex: Sitio web corporativo con cotizador inmediato y logística hacia el sur del Perú para fábrica textil de napa siliconada y almohadas.",
+          "url": "https://crispitex.pe/"
+        },
+        {
+          "text": "AlSimTex: Catálogo digital responsive en Vue para mayoristas y minoristas de ropa de cama y protectores.",
+          "url": "https://www.alsimtex.com/"
+        },
+        {
+          "text": "Camitex: Tienda en línea de ropa de cama desplegada para distribución en el sur del país.",
+          "url": "https://camitex-aqp.vercel.app/"
+        },
         "Sistema unificado de impresión y etiquetado industrial para impresoras Godex (GE305) y Zebra con trazabilidad por escaneo de códigos QR y de barras.",
         "Red de intercomunicadores industriales con ESP32 y Progressive Web App (PWA) para comunicación directa entre oficina y taller de planta."
       ]
@@ -181,9 +208,17 @@
         "Pensada para aprender desde Windows con WSL, sin tener que montar una VM",
         "El progreso de cada estudiante queda guardado"
       ],
-      "tags": ["TypeScript", "CTF", "WSL", "Vercel"],
+      "tags": [
+        "TypeScript",
+        "CTF",
+        "WSL",
+        "Vercel"
+      ],
       "links": [
-        { "label": "shadowbyt3s.vercel.app ↗", "url": "https://shadowbyt3s.vercel.app/" }
+        {
+          "label": "shadowbyt3s.vercel.app ↗",
+          "url": "https://shadowbyt3s.vercel.app/"
+        }
       ],
       "status": "en vivo"
     },
@@ -193,10 +228,17 @@
       "kind": "Seguridad · CTF",
       "category": "sec",
       "description": "10 retos de Hack The Box documentados paso a paso: análisis, vulnerabilidad, explotación y código. Incluye un launcher en Python que levanta con Docker los retos web y misc para practicarlos en local.",
-      "tags": ["Python", "pwntools", "Ghidra", "Docker"],
+      "tags": [
+        "Python",
+        "pwntools",
+        "Ghidra",
+        "Docker"
+      ],
       "links": [
-        { "label": "Ver detalle ↓", "url": "#ctf" },
-        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/resolution" }
+        {
+          "label": "repo ↗",
+          "url": "https://github.com/phaletasss-max/resolution"
+        }
       ]
     },
     {
@@ -210,9 +252,17 @@
         "Códigos TOTP/2FA y hashes SHA-256, SHA-512 y BLAKE2b",
         "CI con GitHub Actions en Windows y Linux, que publica el .exe con su SHA-256"
       ],
-      "tags": ["Python", "Criptografía", "SQLite", "CI/CD"],
+      "tags": [
+        "Python",
+        "Criptografía",
+        "SQLite",
+        "CI/CD"
+      ],
       "links": [
-        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/its_4_s3cr3_t" }
+        {
+          "label": "repo ↗",
+          "url": "https://github.com/phaletasss-max/its_4_s3cr3_t"
+        }
       ]
     },
     {
@@ -221,9 +271,16 @@
       "kind": "Competencia",
       "category": "sec",
       "description": "Ingeniería inversa de un servicio de precios oculto con solo 25 consultas. Armé modelos alternativos, una simulación de 1,000 casos y mutation testing, y etiqueté cada hipótesis según la evidencia que tenía detrás.",
-      "tags": ["Reverse engineering", "JavaScript", "Testing"],
+      "tags": [
+        "Reverse engineering",
+        "JavaScript",
+        "Testing"
+      ],
       "links": [
-        { "label": "49.20% de réplica exacta sobre 1,000 envíos ocultos", "status_only": true }
+        {
+          "label": "49.20% de réplica exacta sobre 1,000 envíos ocultos",
+          "status_only": true
+        }
       ]
     },
     {
@@ -237,9 +294,18 @@
         "Armonización de series temporales de anomalías térmicas MODIS y VIIRS en celdas geoespaciales",
         "Construido con React, TypeScript y backend de procesamiento de datos en Python"
       ],
-      "tags": ["React", "TypeScript", "Python", "MODIS / VIIRS", "NASA Space Apps"],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Python",
+        "MODIS / VIIRS",
+        "NASA Space Apps"
+      ],
       "links": [
-        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026" }
+        {
+          "label": "repo ↗",
+          "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026"
+        }
       ],
       "image": "photos/sensor_calor.webp",
       "image_full": "photos/sensor_calor.png",
@@ -256,9 +322,17 @@
         "Cálculo continuo de recursos críticos: oxígeno, agua, comida, reserva energética en baterías y dosis de radiación acumulada",
         "Selección de ubicación (ej. polo sur lunar / Shackleton) y configuración de tripulación y blindaje"
       ],
-      "tags": ["React", "TypeScript", "Simulación", "NASA Space Apps"],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Simulación",
+        "NASA Space Apps"
+      ],
       "links": [
-        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026" }
+        {
+          "label": "repo ↗",
+          "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026"
+        }
       ],
       "image": "photos/juego_simulador.webp",
       "image_full": "photos/juego_simulador.png",
@@ -275,9 +349,17 @@
         "Cálculo de delta-v (Δv) para inserción en órbita baja, salida y llegada a la Luna, Marte, Venus y Júpiter",
         "Gestión de ventanas de lanzamiento y firma de contratos científicos y de cartografía"
       ],
-      "tags": ["JavaScript", "Física orbital", "Simulación", "NASA Space Apps"],
+      "tags": [
+        "JavaScript",
+        "Física orbital",
+        "Simulación",
+        "NASA Space Apps"
+      ],
       "links": [
-        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026" }
+        {
+          "label": "repo ↗",
+          "url": "https://github.com/phaletasss-max/nasa-apps-space-challenge-2026"
+        }
       ],
       "image": "photos/simulador_viajes.webp",
       "image_full": "photos/simulador_viajes.png",
@@ -289,7 +371,12 @@
       "kind": "Hardware · IoT",
       "category": "hw",
       "description": "Control por huella dactilar con microcontrolador ESP32-S3 (N16R8) y sensor óptico AS608. Hice el prototipo de punta a punta: firmware en C++, modelado 3D del enclosure, impresión y ensamblaje.",
-      "tags": ["ESP32-S3", "AS608", "C++", "Impresión 3D"]
+      "tags": [
+        "ESP32-S3",
+        "AS608",
+        "C++",
+        "Impresión 3D"
+      ]
     },
     {
       "id": "intercomunicadores",
@@ -297,9 +384,16 @@
       "kind": "Hardware · Redes",
       "category": "hw",
       "description": "Intercomunicadores con ESP32 y una Progressive Web App (PWA) que comunican la oficina con el taller de producción, evitando traslados innecesarios en planta.",
-      "tags": ["ESP32", "PWA", "Redes"],
+      "tags": [
+        "ESP32",
+        "PWA",
+        "Redes"
+      ],
       "links": [
-        { "label": "en uso", "status_only": true }
+        {
+          "label": "en uso",
+          "status_only": true
+        }
       ]
     },
     {
@@ -313,7 +407,11 @@
         "Inclusión de fotos de producto en la etiqueta",
         "Generación automática de códigos QR y códigos de barras"
       ],
-      "tags": ["Industrial", "QR / Barcode", "Trazabilidad"]
+      "tags": [
+        "Industrial",
+        "QR / Barcode",
+        "Trazabilidad"
+      ]
     },
     {
       "id": "crispitex",
@@ -322,7 +420,10 @@
       "category": "web",
       "description": "Sitio de una fábrica de napa siliconada y almohadas en Arequipa, con cotización al instante y envíos al sur del Perú.",
       "links": [
-        { "label": "crispitex.pe ↗", "url": "https://crispitex.pe/" }
+        {
+          "label": "crispitex.pe ↗",
+          "url": "https://crispitex.pe/"
+        }
       ],
       "status": "en vivo"
     },
@@ -332,9 +433,14 @@
       "kind": "Web · Cliente",
       "category": "web",
       "description": "Catálogo online de sábanas, edredones, frazadas y protectores, con estructura de precios mayoristas y minoristas.",
-      "tags": ["Vue"],
+      "tags": [
+        "Vue"
+      ],
       "links": [
-        { "label": "alsimtex.com ↗", "url": "https://www.alsimtex.com/" }
+        {
+          "label": "alsimtex.com ↗",
+          "url": "https://www.alsimtex.com/"
+        }
       ],
       "status": "en vivo"
     },
@@ -345,7 +451,10 @@
       "category": "web",
       "description": "Tienda en línea de ropa de cama que atiende al mercado del sur del Perú.",
       "links": [
-        { "label": "camitex-aqp.vercel.app ↗", "url": "https://camitex-aqp.vercel.app/" }
+        {
+          "label": "camitex-aqp.vercel.app ↗",
+          "url": "https://camitex-aqp.vercel.app/"
+        }
       ],
       "status": "en vivo"
     },
@@ -355,9 +464,17 @@
       "kind": "Web · Propuesta",
       "category": "web",
       "description": "Landing de un hub que centraliza la información turística de Arequipa (hoy dispersa): servicios, atractivos destacados, mapa interactivo y enlaces institucionales.",
-      "tags": ["React", "TypeScript", "Vite", "Tailwind"],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind"
+      ],
       "links": [
-        { "label": "repo ↗", "url": "https://github.com/phaletasss-max/tafa-arequipa" }
+        {
+          "label": "repo ↗",
+          "url": "https://github.com/phaletasss-max/tafa-arequipa"
+        }
       ]
     }
   ],
@@ -432,6 +549,19 @@
         "preview_image": "photos/Certificate-HBXAC.webp",
         "original_file": "photos/Certificate-HBXAC.png",
         "is_pdf": false
+      },
+      {
+        "id": "hack-the-andes-2026-b2",
+        "name": "Hack the Andes 2026 · Broken Agent #02 — The Scheduler",
+        "official_event": "Hack the Andes 2026 — Broken Agent #02: The Scheduler",
+        "team": "Individual",
+        "rank": "Puesto 3",
+        "badge": "Puesto 3 · 100/100",
+        "score": "100/100 puntos",
+        "date": "17–18 oct. 2026",
+        "description": "Top 20 público (100 participantes, 30 horas). Reto: auditar un job scheduler generado por IA cuyos tests públicos ya pasaban y hacerlo confiable bajo condiciones reales de producción. Puesto 3 en ranking oficial.",
+        "url": "https://hacktheandes.com/",
+        "is_pdf": false
       }
     ],
     "platforms": {
@@ -455,14 +585,38 @@
     "cisco_courses": {
       "disclaimer": "Nota: Estos registros corresponden a Cursos de Cisco Networking Academy, no a certificaciones industriales.",
       "items": [
-        { "title": "Curso: CCNA: Introducción a las redes", "date": "18 feb. 2026" },
-        { "title": "Curso: Conceptos básicos de hardware de computadora", "date": "19 feb. 2026" },
-        { "title": "Curso: Introducción a la ciencia de datos", "date": "24 feb. 2026" },
-        { "title": "Curso: Introducción al Internet de las Cosas", "date": "28 feb. 2026" },
-        { "title": "Curso: Conceptos básicos de redes", "date": "28 mar. 2026" },
-        { "title": "Curso: Conciencia digital", "date": "16 abr. 2026" },
-        { "title": "Curso: Uso de computadoras y dispositivos móviles", "date": "23 abr. 2026" },
-        { "title": "Curso: Introducción a la ciberseguridad", "date": "23 may. 2026" }
+        {
+          "title": "Curso: CCNA: Introducción a las redes",
+          "date": "18 feb. 2026"
+        },
+        {
+          "title": "Curso: Conceptos básicos de hardware de computadora",
+          "date": "19 feb. 2026"
+        },
+        {
+          "title": "Curso: Introducción a la ciencia de datos",
+          "date": "24 feb. 2026"
+        },
+        {
+          "title": "Curso: Introducción al Internet de las Cosas",
+          "date": "28 feb. 2026"
+        },
+        {
+          "title": "Curso: Conceptos básicos de redes",
+          "date": "28 mar. 2026"
+        },
+        {
+          "title": "Curso: Conciencia digital",
+          "date": "16 abr. 2026"
+        },
+        {
+          "title": "Curso: Uso de computadoras y dispositivos móviles",
+          "date": "23 abr. 2026"
+        },
+        {
+          "title": "Curso: Introducción a la ciberseguridad",
+          "date": "23 may. 2026"
+        }
       ],
       "badges_summary": "Insignias de módulo obtenidas en Cisco Networking Academy (nov. 2025 y oct. 2026): System Safeguards, Threat Analysis y Cybersecurity Administration."
     },
@@ -477,14 +631,46 @@
         "technique": "Técnica"
       },
       "items": [
-        { "name": "OmniWatch", "cat": "web", "tech": "Cadena de 6 vulnerabilidades: cache-key confusion en Varnish, HTTP response splitting, XSS, LFI, SQLi y JWT forgery" },
-        { "name": "Blueprint Heist", "cat": "web", "tech": "SSRF en wkhtmltopdf, leak de JWT y SQLi en GraphQL hasta RCE con plantillas EJS" },
-        { "name": "Blessed", "cat": "crypto", "tech": "EC-LCG roto con Coppersmith + LLL, y rogue-key attack sobre firmas BLS" },
-        { "name": "Void", "cat": "pwn", "tech": "Stack overflow sin leak, resuelto con ret2dlresolve" },
-        { "name": "Satellite Hijack", "cat": "rev", "tech": "Backdoor en 3 capas: env var ofuscada, XOR con memfrob y hook de read()" },
-        { "name": "Prison Pipeline", "cat": "misc", "tech": "Supply-chain: SSRF con file://, robo de token .npmrc y paquete npm envenenado" },
-        { "name": "Phreaky", "cat": "forensics", "tech": "PCAP de SMTP: extraer 15 ZIPs protegidos y reensamblar el PDF" },
-        { "name": "NotADemocraticElection", "cat": "blockchain", "tech": "Colisión en abi.encodePacked para secuestrar el peso de voto" }
+        {
+          "name": "OmniWatch",
+          "cat": "web",
+          "tech": "Cadena de 6 vulnerabilidades: cache-key confusion en Varnish, HTTP response splitting, XSS, LFI, SQLi y JWT forgery"
+        },
+        {
+          "name": "Blueprint Heist",
+          "cat": "web",
+          "tech": "SSRF en wkhtmltopdf, leak de JWT y SQLi en GraphQL hasta RCE con plantillas EJS"
+        },
+        {
+          "name": "Blessed",
+          "cat": "crypto",
+          "tech": "EC-LCG roto con Coppersmith + LLL, y rogue-key attack sobre firmas BLS"
+        },
+        {
+          "name": "Void",
+          "cat": "pwn",
+          "tech": "Stack overflow sin leak, resuelto con ret2dlresolve"
+        },
+        {
+          "name": "Satellite Hijack",
+          "cat": "rev",
+          "tech": "Backdoor en 3 capas: env var ofuscada, XOR con memfrob y hook de read()"
+        },
+        {
+          "name": "Prison Pipeline",
+          "cat": "misc",
+          "tech": "Supply-chain: SSRF con file://, robo de token .npmrc y paquete npm envenenado"
+        },
+        {
+          "name": "Phreaky",
+          "cat": "forensics",
+          "tech": "PCAP de SMTP: extraer 15 ZIPs protegidos y reensamblar el PDF"
+        },
+        {
+          "name": "NotADemocraticElection",
+          "cat": "blockchain",
+          "tech": "Colisión en abi.encodePacked para secuestrar el peso de voto"
+        }
       ]
     }
   },

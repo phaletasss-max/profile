@@ -782,7 +782,12 @@
           '</div>' +
           '<h3 class="t-role">' + esc(exp.role) + '</h3>' +
           '<ul class="t-bullets">' +
-            exp.bullets.map(function (b) { return '<li>' + esc(b) + '</li>'; }).join('') +
+            exp.bullets.map(function (b) {
+              if (b && typeof b === 'object' && b.url) {
+                return '<li><a href="' + esc(b.url) + '" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;" onmouseover="this.style.textDecoration=\'underline\'" onmouseout="this.style.textDecoration=\'none\'">' + esc(b.text) + '</a></li>';
+              }
+              return '<li>' + esc(b) + '</li>';
+            }).join('') +
           '</ul>' +
           '</div>';
       }).join('');
@@ -854,6 +859,9 @@
           actionsHtml += '<a class="cert-preview-btn mono" href="' + esc(c.original_file) + '" target="_blank" rel="noopener">' +
             esc(data.ui.actions.open_pdf || 'Abrir PDF ↗') +
             '</a>';
+        }
+        if (c.url && !c.preview_image && !c.is_pdf) {
+          actionsHtml += '<a class="cert-preview-btn mono" href="' + esc(c.url) + '" target="_blank" rel="noopener">hacktheandes.com ↗</a>';
         }
 
         return '<div class="cert-card">' +
