@@ -25,7 +25,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "about", "education": "education", "experience": "experience", "projects": "projects", "competencies": "certifications & ctf", "stack": "stack", "contact": "contact", "download_cv": "Download CV (PDF)", "language_selector_aria": "Select language" },
         "actions": { "view_projects": "View projects", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "Download CV (PDF)", "copy_email": "Copy email", "email_copied": "Copied!", "close_modal": "Close", "view_preview": "View evidence", "open_pdf": "Open PDF ↗", "view_original": "View full image ↗" },
         "filters": { "aria_label": "Filter projects", "all": "all", "sec": "security", "hw": "hardware", "sw": "software", "web": "web", "nasa": "nasa apps" },
-        "badges": { "in_production": "live", "in_use": "in use", "featured": "Featured · Community", "prototype": "Prototype · NASA Space Apps 2026", "course": "Cisco Networking Academy Course", "badge_rank": "Rank", "todo_tag": "Pending confirmation" },
+        "badges": { "in_production": "live", "in_use": "in use", "featured": "Featured · Community", "prototype": "Prototype · NASA Space Apps 2026", "course": "Cisco Networking Academy Course", "badge_rank": "Rank" },
         "sections": {
             "about_title": "About me", "about_sub": "My profile is hybrid: I think like an attacker, build like a developer, and assemble my own hardware. I like completing the entire cycle, from initial concept until someone actually uses it.",
             "education_title": "Education", "education_sub": "Rigorous technical education in cybersecurity, combined with continuous self-learning and future university degree pathway.",
@@ -48,7 +48,6 @@ translations = {
             { "title": "Hardware & IoT", "text": "ESP32 prototypes: biometric access control with 3D-modeled and printed enclosure, and factory floor intercoms." }
         ],
         "edu_senati": { "degree": "Cybersecurity Engineering (Technical Program)", "status": "Currently in 4th semester", "details": "Technical curriculum focused on network security, secure system administration, vulnerability analysis, and incident response." },
-        "edu_transfer": { "institution": "Institution TBD (University Credit Transfer)", "degree": "Bachelor's Degree in Cybersecurity Engineering", "status": "TODO: Target institution and curriculum pending formal confirmation", "details": "Academic continuity pathway towards formal university professional degree." },
         "cisco_disclaimer": "Note: These records are Cisco Networking Academy Courses, not industry certifications.",
         "cisco_badges": "Module badges earned at Cisco Networking Academy (Nov 2025 & Oct 2026): System Safeguards, Threat Analysis, and Cybersecurity Administration.",
         "ctf_honesty": "Solved with AI assistance (Claude Code). Binary reverse engineering was performed exclusively via static analysis, without running untrusted executables.",
@@ -68,7 +67,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "sobre mim", "education": "educação", "experience": "experiência", "projects": "projetos", "competencies": "certificações & ctf", "stack": "stack", "contact": "contato", "download_cv": "Baixar CV (PDF)", "language_selector_aria": "Selecionar idioma" },
         "actions": { "view_projects": "Ver projetos", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "Baixar CV (PDF)", "copy_email": "Copiar e-mail", "email_copied": "Copiado!", "close_modal": "Fechar", "view_preview": "Ver evidência", "open_pdf": "Abrir PDF ↗", "view_original": "Ver imagem completa ↗" },
         "filters": { "aria_label": "Filtrar projetos", "all": "todos", "sec": "segurança", "hw": "hardware", "sw": "software", "web": "web", "nasa": "nasa apps" },
-        "badges": { "in_production": "no ar", "in_use": "em uso", "featured": "Destaque · Comunidade", "prototype": "Protótipo · NASA Space Apps 2026", "course": "Curso de Cisco Networking Academy", "badge_rank": "Posição", "todo_tag": "Pendente de confirmação" },
+        "badges": { "in_production": "no ar", "in_use": "em uso", "featured": "Destaque · Comunidade", "prototype": "Protótipo · NASA Space Apps 2026", "course": "Curso de Cisco Networking Academy", "badge_rank": "Posição" },
         "sections": {
             "about_title": "Sobre mim", "about_sub": "Meu perfil é híbrido: penso como atacante, construo como desenvolvedor e monto meu próprio hardware. Gosto de fechar o ciclo completo, da ideia até que alguém a utilize.",
             "education_title": "Educação", "education_sub": "Formação técnica rigorosa em cibersegurança, aliada ao autoaprendizado contínuo e projeção universitária.",
@@ -91,7 +90,6 @@ translations = {
             { "title": "Hardware e IoT", "text": "Protótipos com ESP32: controle biométrico com case modelado e impresso em 3D, e intercomunicadores para fábrica." }
         ],
         "edu_senati": { "degree": "Engenharia em Cibersegurança (Programa Técnico)", "status": "Atualmente no 4.º ciclo", "details": "Formação técnica especializada em segurança de redes, administração segura de sistemas, análise de vulnerabilidades e resposta a incidentes." },
-        "edu_transfer": { "institution": "Instituição a definir (Aproveitamento Universitário)", "degree": "Convalidação para Engenharia em Cibersegurança", "status": "TODO: Instituição e grade curricular pendentes de confirmação formal", "details": "Plano de continuidade acadêmica para obtenção do diploma universitário profissional." },
         "cisco_disclaimer": "Nota: Estes registros referem-se a Cursos da Cisco Networking Academy, não a certificações industriais.",
         "cisco_badges": "Insígnias de módulo obtidas na Cisco Networking Academy (nov. 2025 e out. 2026): System Safeguards, Threat Analysis e Cybersecurity Administration.",
         "ctf_honesty": "Resolvidos com assistência de IA (Claude Code). Engenharia reversa realizada exclusivamente via análise estática, sem executar binários não confiáveis.",
@@ -111,7 +109,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "à propos", "education": "formation", "experience": "expérience", "projects": "projets", "competencies": "certifications & ctf", "stack": "stack", "contact": "contact", "download_cv": "Télécharger CV (PDF)", "language_selector_aria": "Choisir la langue" },
         "actions": { "view_projects": "Voir les projets", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "Télécharger CV (PDF)", "copy_email": "Copier l'e-mail", "email_copied": "Copié !", "close_modal": "Fermer", "view_preview": "Voir la preuve", "open_pdf": "Ouvrir PDF ↗", "view_original": "Voir image complète ↗" },
         "filters": { "aria_label": "Filtrer les projets", "all": "tous", "sec": "sécurité", "hw": "matériel", "sw": "logiciel", "web": "web", "nasa": "nasa apps" },
-        "badges": { "in_production": "en ligne", "in_use": "en service", "featured": "À la une · Communauté", "prototype": "Prototype · NASA Space Apps 2026", "course": "Cours Cisco Networking Academy", "badge_rank": "Rang", "todo_tag": "En attente de confirmation" },
+        "badges": { "in_production": "en ligne", "in_use": "en service", "featured": "À la une · Communauté", "prototype": "Prototype · NASA Space Apps 2026", "course": "Cours Cisco Networking Academy", "badge_rank": "Rang" },
         "sections": {
             "about_title": "À propos de moi", "about_sub": "Mon profil est hybride : je pense comme un attaquant, je construis comme un développeur et j'assemble mon propre matériel. J'aime mener à bien le cycle complet, de la conception à l'usage réel.",
             "education_title": "Formation", "education_sub": "Formation technique rigoureuse en cybersécurité, enrichie par l'auto-apprentissage permanent et une passerelle universitaire.",
@@ -134,7 +132,6 @@ translations = {
             { "title": "Matériel & IoT", "text": "Prototypes ESP32 : contrôle biométrique avec boîtier modélisé et imprimé en 3D, et interphones pour atelier industriel." }
         ],
         "edu_senati": { "degree": "Ingénierie en Cybersécurité (Programme Technique)", "status": "Actuellement en 4e semestre", "details": "Cursus technique spécialisé en sécurité réseau, administration de systèmes sécurisés, analyse de vulnérabilités et réponse aux incidents." },
-        "edu_transfer": { "institution": "Établissement à déterminer (Passerelle Universitaire)", "degree": "Équivalence Licence / Ingénieur en Cybersécurité", "status": "TODO : Établissement et programme en attente de confirmation formelle", "details": "Poursuite d'études académiques vers l'obtention du diplôme professionnel universitaire d'ingénieur." },
         "cisco_disclaimer": "Remarque : Ces attestations correspondent à des Cours de la Cisco Networking Academy, et non à des certifications industrielles.",
         "cisco_badges": "Badges de modules obtenus à la Cisco Networking Academy (nov. 2025 et oct. 2026) : System Safeguards, Threat Analysis et Cybersecurity Administration.",
         "ctf_honesty": "Résolus avec l'assistance d'IA (Claude Code). Le rétro-ingénierie a été mené exclusivement en analyse statique, sans exécution de fichiers binaires non fiables.",
@@ -154,7 +151,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "über mich", "education": "ausbildung", "experience": "berufserfahrung", "projects": "projekte", "competencies": "zertifikate & ctf", "stack": "stack", "contact": "kontakt", "download_cv": "CV herunterladen (PDF)", "language_selector_aria": "Sprache wählen" },
         "actions": { "view_projects": "Projekte ansehen", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "CV herunterladen (PDF)", "copy_email": "E-Mail kopieren", "email_copied": "Kopiert!", "close_modal": "Schließen", "view_preview": "Nachweis ansehen", "open_pdf": "PDF öffnen ↗", "view_original": "Vollbild ansehen ↗" },
         "filters": { "aria_label": "Projekte filtern", "all": "alle", "sec": "sicherheit", "hw": "hardware", "sw": "software", "web": "web", "nasa": "nasa apps" },
-        "badges": { "in_production": "live", "in_use": "im einsatz", "featured": "Highlight · Community", "prototype": "Prototyp · NASA Space Apps 2026", "course": "Cisco Networking Academy Kurs", "badge_rank": "Platz", "todo_tag": "Bestätigung ausstehend" },
+        "badges": { "in_production": "live", "in_use": "im einsatz", "featured": "Highlight · Community", "prototype": "Prototyp · NASA Space Apps 2026", "course": "Cisco Networking Academy Kurs", "badge_rank": "Platz" },
         "sections": {
             "about_title": "Über mich", "about_sub": "Mein Profil ist hybrid: Ich denke wie ein Angreifer, baue wie ein Entwickler und montiere meine eigene Hardware. Ich schließe gerne den gesamten Zyklus ab, von der Idee bis zur realen Nutzung.",
             "education_title": "Ausbildung", "education_sub": "Fundierte technische Ausbildung in Cybersicherheit, ergänzt durch kontinuierliches Selbststudium und universitären Weiterbildungsweg.",
@@ -177,7 +174,6 @@ translations = {
             { "title": "Hardware & IoT", "text": "ESP32-Prototypen: biometrische Zugangskontrolle mit 3D-modelliertem und gedrucktem Gehäuse sowie Industrie-Gegensprechanlagen." }
         ],
         "edu_senati": { "degree": "Cybersicherheitstechnik (Technisches Programm)", "status": "Derzeit im 4. Semester", "details": "Technischer Lehrplan mit Schwerpunkt auf Netzwerksicherheit, sichere Systemadministration, Schwachstellenanalyse und Incident Response." },
-        "edu_transfer": { "institution": "Institution noch festzulegen (Universitätsanerkennung)", "degree": "Bachelor in Cybersicherheitstechnik", "status": "TODO: Zieluniversität und Studienplan stehen noch aus", "details": "Akademischer Fortführungsweg zum Erwerb des staatlich anerkannten Ingenieurabschlusses." },
         "cisco_disclaimer": "Hinweis: Diese Nachweise sind Kurse der Cisco Networking Academy, keine Industrie-Zertifizierungen.",
         "cisco_badges": "Modul-Badges der Cisco Networking Academy (Nov. 2025 & Okt. 2026): System Safeguards, Threat Analysis und Cybersecurity Administration.",
         "ctf_honesty": "Gelöst mit KI-Unterstützung (Claude Code). Reverse Engineering erfolgte ausschließlich über statische Analyse, ohne Ausführung nicht vertrauenswürdiger Binärdateien.",
@@ -197,7 +193,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "chi sono", "education": "istruzione", "experience": "esperienza", "projects": "progetti", "competencies": "certificazioni & ctf", "stack": "stack", "contact": "contatti", "download_cv": "Scarica CV (PDF)", "language_selector_aria": "Seleziona lingua" },
         "actions": { "view_projects": "Vedi progetti", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "Scarica CV (PDF)", "copy_email": "Copia e-mail", "email_copied": "Copiato!", "close_modal": "Chiudi", "view_preview": "Vedi prova", "open_pdf": "Apri PDF ↗", "view_original": "Vedi immagine intera ↗" },
         "filters": { "aria_label": "Filtra progetti", "all": "tutti", "sec": "sicurezza", "hw": "hardware", "sw": "software", "web": "web", "nasa": "nasa apps" },
-        "badges": { "in_production": "live", "in_use": "in uso", "featured": "In evidenza · Community", "prototype": "Prototipo · NASA Space Apps 2026", "course": "Corso Cisco Networking Academy", "badge_rank": "Posizione", "todo_tag": "In attesa di conferma" },
+        "badges": { "in_production": "live", "in_use": "in uso", "featured": "In evidenza · Community", "prototype": "Prototipo · NASA Space Apps 2026", "course": "Corso Cisco Networking Academy", "badge_rank": "Posizione" },
         "sections": {
             "about_title": "Chi sono", "about_sub": "Il mio profilo è ibrido: penso come un attaccante, costruisco come uno sviluppatore e assemblo il mio hardware. Amo completare l'intero ciclo, dall'idea fino all'utilizzo reale.",
             "education_title": "Istruzione", "education_sub": "Rigorosa formazione tecnica in sicurezza informatica, unita ad autoapprendimento continuo e percorso di laurea universitario.",
@@ -220,7 +216,6 @@ translations = {
             { "title": "Hardware e IoT", "text": "Prototipi ESP32: controllo accessi biometrico con custodia modellata e stampata in 3D, e interfoni industriali per reparti." }
         ],
         "edu_senati": { "degree": "Ingegneria della Sicurezza Informatica (Programma Tecnico)", "status": "Attualmente al 4° semestre", "details": "Curriculum tecnico focalizzato su sicurezza delle reti, amministrazione sicura dei sistemi, analisi delle vulnerabilità e gestione degli incidenti." },
-        "edu_transfer": { "institution": "Istituto da definire (Riconoscimento Universitario)", "degree": "Laurea in Ingegneria della Sicurezza Informatica", "status": "TODO: Istituto e piano didattico in attesa di conferma formale", "details": "Percorso accademico di continuità per il conseguimento del titolo professionale universitario." },
         "cisco_disclaimer": "Nota: Questi attestati corrispondono a Corsi della Cisco Networking Academy, non a certificazioni professionali.",
         "cisco_badges": "Badge di modulo ottenuti presso Cisco Networking Academy (nov 2025 e ott 2026): System Safeguards, Threat Analysis e Cybersecurity Administration.",
         "ctf_honesty": "Risolti con l'assistenza dell'IA (Claude Code). Il reverse engineering è stato eseguito esclusivamente tramite analisi statica, senza eseguire file binari non affidabili.",
@@ -240,7 +235,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "关于我", "education": "教育经历", "experience": "工作经历", "projects": "项目展示", "competencies": "认证与CTF", "stack": "技术栈", "contact": "联系方式", "download_cv": "下载简历 (PDF)", "language_selector_aria": "选择语言" },
         "actions": { "view_projects": "查看项目", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "下载简历 (PDF)", "copy_email": "复制邮箱", "email_copied": "已复制！", "close_modal": "关闭", "view_preview": "查看证明", "open_pdf": "打开 PDF ↗", "view_original": "查看原图 ↗" },
         "filters": { "aria_label": "筛选项目", "all": "全部", "sec": "安全", "hw": "硬件", "sw": "软件", "web": "Web", "nasa": "NASA挑战" },
-        "badges": { "in_production": "运行中", "in_use": "使用中", "featured": "重点精选 · 社区", "prototype": "原型 · NASA Space Apps 2026", "course": "思科网络学院课程", "badge_rank": "名次", "todo_tag": "待确认" },
+        "badges": { "in_production": "运行中", "in_use": "使用中", "featured": "重点精选 · 社区", "prototype": "原型 · NASA Space Apps 2026", "course": "思科网络学院课程", "badge_rank": "名次" },
         "sections": {
             "about_title": "关于我", "about_sub": "我的技术背景兼具多面性：像攻击者一样思考，像开发者一样构建，亲手组装硬件。我喜欢打通从构思到用户实际使用的完整闭环。",
             "education_title": "教育经历", "education_sub": "扎实系统的网络安全技术教育，辅以持续自主学习与大学学位衔接规划。",
@@ -263,7 +258,6 @@ translations = {
             { "title": "硬件物联网与智能制造", "text": "基于 ESP32 的创新硬件：含 3D 建模与打印外壳的生物识别终端，以及车间对讲专用网络。" }
         ],
         "edu_senati": { "degree": "网络安全工程（专业技术培养项目）", "status": "当前第4学期在读", "details": "专注网络攻防架构、安全系统管理、漏洞扫描挖掘与网络安全事件应急响应等核心技能。" },
-        "edu_transfer": { "institution": "待定学府（大学学位学分衔接）", "degree": "网络安全工程学士学位课程", "status": "TODO：目标院校及正式课程大纲待官方最终确认", "details": "专升本学术晋升培养路径，以取得国家认证的网络安全工程师专业学士学位。" },
         "cisco_disclaimer": "注：以上项目为思科网络学院（Cisco Networking Academy）结业课程，非行业职业资格认证证书。",
         "cisco_badges": "思科网络学院所获核心模块徽章（2025年11月及2026年10月）：System Safeguards、Threat Analysis 与 Cybersecurity Administration。",
         "ctf_honesty": "题目解析借助 AI（Claude Code）辅助。二进制逆向工程全部基于静态反编译与代码审计，未在宿主机执行任何不受信二进制程序。",
@@ -283,7 +277,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "自己紹介", "education": "学歴", "experience": "実務経験", "projects": "プロジェクト", "competencies": "認定資格・CTF", "stack": "技術スタック", "contact": "連絡先", "download_cv": "履歴書をダウンロード (PDF)", "language_selector_aria": "言語を選択" },
         "actions": { "view_projects": "プロジェクトを見る", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "履歴書をダウンロード (PDF)", "copy_email": "メールをコピー", "email_copied": "コピー完了！", "close_modal": "閉じる", "view_preview": "証明書を見る", "open_pdf": "PDFを開く ↗", "view_original": "原寸画像を表示 ↗" },
         "filters": { "aria_label": "プロジェクトを絞り込む", "all": "すべて", "sec": "セキュリティ", "hw": "ハードウェア", "sw": "ソフトウェア", "web": "Web", "nasa": "NASA Apps" },
-        "badges": { "in_production": "稼働中", "in_use": "運用中", "featured": "注目 · コミュニティ", "prototype": "プロトタイプ · NASA Space Apps 2026", "course": "シスコ・ネットワーキング・アカデミー修了コース", "badge_rank": "順位", "todo_tag": "確認待ち" },
+        "badges": { "in_production": "稼働中", "in_use": "運用中", "featured": "注目 · コミュニティ", "prototype": "プロトタイプ · NASA Space Apps 2026", "course": "シスコ・ネットワーキング・アカデミー修了コース", "badge_rank": "順位" },
         "sections": {
             "about_title": "自己紹介", "about_sub": "攻撃者の視点で考え、開発者として構築し、自らハードウェアを組み立てるハイブリッドな技術基盤を持ち、着想から実際の運用まで完遂します。",
             "education_title": "学歴・教育", "education_sub": "サイバーセキュリティに関する厳格な専門技術教育に加え、継続的な独学と大学編入による学位取得を目指しています。",
@@ -306,7 +300,6 @@ translations = {
             { "title": "ハードウェア & IoT", "text": "ESP32プロトタイプ：3D設計・出力筐体付き生体認証端末や、工場間通話インターホン網。" }
         ],
         "edu_senati": { "degree": "サイバーセキュリティ工学（専門技術課程）", "status": "第4セメスター在学中", "details": "ネットワークセキュリティ、安全なシステム管理、脆弱性評価、インシデントレスポンスに特化した技術教育。" },
-        "edu_transfer": { "institution": "大学機関未定（大学編入プログラム）", "degree": "サイバーセキュリティ工学 学士課程編入", "status": "TODO: 対象大学および公式カリキュラムは確定待ち", "details": "正規の工学学士号取得に向けた学術継続パスウェイ。" },
         "cisco_disclaimer": "注：上記は Cisco Networking Academy の修了コースであり、ベンダー認定プロ資格ではありません。",
         "cisco_badges": "Cisco Networking Academy で獲得したモジュールバッジ（2025年11月・2026年10月）：System Safeguards、Threat Analysis、Cybersecurity Administration。",
         "ctf_honesty": "AI（Claude Code）の支援を受けて解法を導出。バイナリのリバースエンジニアリングは静的解析のみで実施し、信頼できない実行可能ファイルは一切起動していません。",
@@ -326,7 +319,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "소개", "education": "학력", "experience": "경력", "projects": "프로젝트", "competencies": "자격 및 CTF", "stack": "기술 스택", "contact": "연락처", "download_cv": "이력서 다운로드 (PDF)", "language_selector_aria": "언어 선택" },
         "actions": { "view_projects": "프로젝트 보기", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "이력서 다운로드 (PDF)", "copy_email": "이메일 복사", "email_copied": "복사됨!", "close_modal": "닫기", "view_preview": "증빙자료 보기", "open_pdf": "PDF 열기 ↗", "view_original": "원본 이미지 보기 ↗" },
         "filters": { "aria_label": "프로젝트 필터", "all": "전체", "sec": "보안", "hw": "하드웨어", "sw": "소프트웨어", "web": "웹", "nasa": "NASA 앱" },
-        "badges": { "in_production": "운영 중", "in_use": "실사용 중", "featured": "주목 · 커뮤니티", "prototype": "프로토타입 · NASA Space Apps 2026", "course": "시스코 네트워킹 아카데미 수료 과정", "badge_rank": "순위", "todo_tag": "확인 대기 중" },
+        "badges": { "in_production": "운영 중", "in_use": "실사용 중", "featured": "주목 · 커뮤니티", "prototype": "프로토타입 · NASA Space Apps 2026", "course": "시스코 네트워킹 아카데미 수료 과정", "badge_rank": "순위" },
         "sections": {
             "about_title": "소개", "about_sub": "공격자처럼 사고하고, 개발자처럼 구축하며, 하드웨어를 직접 조립하는 하이브리드 프로필을 바탕으로 아이디어에서 실제 사용자 배포까지 완결합니다.",
             "education_title": "학력", "education_sub": "사이버 보안 전문 기술 교육과 지속적인 자기주도 학습, 향후 대학 학위 연계 경로.",
@@ -349,7 +342,6 @@ translations = {
             { "title": "하드웨어 및 IoT", "text": "ESP32 프로토타입: 3D 모델링 및 출력 케이스가 적용된 생체인식 단말기와 공장 통신용 인터콤망." }
         ],
         "edu_senati": { "degree": "사이버 보안 공학 (전문 기술 과정)", "status": "현재 4학기 재학 중", "details": "네트워크 보안, 안전한 시스템 관리, 취약점 분석 및 침해 사고 대응에 집중된 전문 기술 커리큘럼." },
-        "edu_transfer": { "institution": "기관 미정 (학점 인정 및 학사 편입)", "degree": "사이버 보안 공학 학사 편입 과정", "status": "TODO: 편입 대학 및 세부 커리큘럼 공식 확인 예정", "details": "공인 사이버 보안 공학 전문 학사 학위 취득을 위한 학업 연계 계획." },
         "cisco_disclaimer": "알림: 위 항목은 Cisco Networking Academy 수료 과정이며, 벤더 공인 자격증이 아닙니다.",
         "cisco_badges": "Cisco Networking Academy 취득 모듈 배지 (2025년 11월 및 2026년 10월): System Safeguards, Threat Analysis, Cybersecurity Administration.",
         "ctf_honesty": "AI(Claude Code)의 보조를 받아 해결함. 바이너리 리버싱은 비신뢰 바이너리 실행 없이 순수 정적 분석으로만 수행되었습니다.",
@@ -369,7 +361,7 @@ translations = {
         "nav": { "brand": ">_ mvilcazan", "about": "обо мне", "education": "образование", "experience": "опыт", "projects": "проекты", "competencies": "сертификаты & ctf", "stack": "стек", "contact": "контакты", "download_cv": "Скачать резюме (PDF)", "language_selector_aria": "Выбрать язык" },
         "actions": { "view_projects": "Смотреть проекты", "github_btn": "GitHub ↗", "linkedin_btn": "LinkedIn ↗", "download_cv_btn": "Скачать резюме (PDF)", "copy_email": "Скопировать email", "email_copied": "Скопировано!", "close_modal": "Закрыть", "view_preview": "Посмотреть подтверждение", "open_pdf": "Открыть PDF ↗", "view_original": "Открыть оригинал ↗" },
         "filters": { "aria_label": "Фильтр проектов", "all": "все", "sec": "безопасность", "hw": "аппаратное", "sw": "софт", "web": "веб", "nasa": "nasa apps" },
-        "badges": { "in_production": "в работе", "in_use": "эксплуатируется", "featured": "Главное · Сообщество", "prototype": "Прототип · NASA Space Apps 2026", "course": "Курс Cisco Networking Academy", "badge_rank": "Место", "todo_tag": "Ожидает подтверждения" },
+        "badges": { "in_production": "в работе", "in_use": "эксплуатируется", "featured": "Главное · Сообщество", "prototype": "Прототип · NASA Space Apps 2026", "course": "Курс Cisco Networking Academy", "badge_rank": "Место" },
         "sections": {
             "about_title": "Обо мне", "about_sub": "У меня гибридный профиль: мыслю как атакующий, разрабатываю как программист и самостоятельно собираю аппаратное обеспечение. Предпочитаю вести проект от идеи до реальной эксплуатации.",
             "education_title": "Образование", "education_sub": "Фундаментальная техническая подготовка в сфере кибербезопасности, непрерывное самообразование и траектория получения университетской степени.",
@@ -392,7 +384,6 @@ translations = {
             { "title": "Аппаратные платформы и IoT", "text": "Прототипы на ESP32: биометрический контроль доступа в смоделированном и напечатанном на 3D-принтере корпусе, и цеховой интерком." }
         ],
         "edu_senati": { "degree": "Инженерия кибербезопасности (Техническая программа)", "status": "В настоящее время на 4-м семестре", "details": "Специализированная программа: сетевая безопасность, безопасное администрирование систем, анализ уязвимостей и реагирование на инциденты." },
-        "edu_transfer": { "institution": "Вуз уточняется (Университетский перевод)", "degree": "Бакалавриат по специальности «Инженерия кибербезопасности»", "status": "TODO: Выбранный университет и учебный план на согласовании", "details": "Траектория академического продолжения обучения для получения диплома государственного инженера." },
         "cisco_disclaimer": "Примечание: Данные документы подтверждают прохождение курсов Cisco Networking Academy, а не сдачу промышленных сертификаций.",
         "cisco_badges": "Модульные бейджи Cisco Networking Academy (ноябрь 2025 и октябрь 2026): System Safeguards, Threat Analysis и Cybersecurity Administration.",
         "ctf_honesty": "Задачи решены при консультации ИИ (Claude Code). Реверс-инжиниринг бинарных файлов производился исключительно статическим анализом, без запуска недоверенного кода.",
@@ -403,6 +394,31 @@ translations = {
         }
     }
 }
+
+with open(os.path.join(base_dir, "content-updates.json"), encoding="utf-8") as f:
+    content_updates = json.load(f)
+
+def apply_content_updates(data, code):
+    u = content_updates[code]
+    data["identity"].update(availability=u["availability"], phone="+51 938 764 838", whatsapp="+51 921 378 349", phone_label=u["phone_label"])
+    ai_stack = {"category": u["ai_category"], "tags": ["Claude Code", "Ollama", "DeepSeek", "Gemini", "ChatGPT", u["automation"], u["analysis"]]}
+    data["stack"] = [st for st in data["stack"] if "Claude Code" not in st["tags"]] + [ai_stack]
+    data["identity"]["summary"] = data["identity"]["summary"].split(" | ")[0] + " | " + u["ai_category"] + ": " + ", ".join(ai_stack["tags"]) + "."
+    data["education"] = data["education"][:1]
+    for idx, key in enumerate(["intern_period", "freelance_period"]):
+        data["experience"][idx]["period"] = u[key]
+    delivery_texts = [entry["delivery"] for entry in content_updates.values()]
+    bullets = data["experience"][1]["bullets"]
+    data["experience"][1]["bullets"] = [b for b in bullets if b not in delivery_texts] + [u["delivery"]]
+    result = "Puesto #20 (4,685 puntos) — Equipo ShadowBytes" if code == "es" else "#20 (4,685 points) — Team ShadowBytes"
+    event = {"name": "BlackAlpaca CTF (BLKALP) 2026", "official_event": "BlackAlpaca CTF (BLKALP) 2026", "badge": result, "score": "4,685", "date": "Nov. 2026", "description": u["achievement"], "certificate_status": u["certificate_status"]}
+    events = data["competencies"]["ctf_competitions"]
+    data["competencies"]["ctf_competitions"] = [event] + [c for c in events if c["name"] != event["name"]]
+    return data
+
+apply_content_updates(es_data, "es")
+with open(os.path.join(base_dir, "es.json"), "w", encoding="utf-8") as f:
+    json.dump(es_data, f, indent=2, ensure_ascii=False)
 
 for code, tr in translations.items():
     lang_obj = make_lang_data(code)
@@ -440,10 +456,6 @@ for code, tr in translations.items():
     lang_obj["education"][0]["status"] = tr["edu_senati"]["status"]
     lang_obj["education"][0]["details"] = tr["edu_senati"]["details"]
     
-    lang_obj["education"][1]["institution"] = tr["edu_transfer"]["institution"]
-    lang_obj["education"][1]["degree"] = tr["edu_transfer"]["degree"]
-    lang_obj["education"][1]["status"] = tr["edu_transfer"]["status"]
-    lang_obj["education"][1]["details"] = tr["edu_transfer"]["details"]
     
     # Cisco
     lang_obj["competencies"]["cisco_courses"]["disclaimer"] = tr["cisco_disclaimer"]
@@ -457,6 +469,7 @@ for code, tr in translations.items():
     lang_obj["terminal"]["ls_reply"] = tr["terminal"]["reply_ls"]
     lang_obj["terminal"]["cat_reply"] = tr["terminal"]["reply_cat"]
     
+    apply_content_updates(lang_obj, code)
     out_file = os.path.join(base_dir, f"{code}.json")
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(lang_obj, f, indent=2, ensure_ascii=False)

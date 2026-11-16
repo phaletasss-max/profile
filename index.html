@@ -176,19 +176,12 @@
     background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
     padding: 20px; position: relative;
   }
-  .t-card.is-todo {
-    border-style: dashed;
-    border-color: color-mix(in srgb, var(--accent-warning) 60%, var(--border));
-  }
+
   .t-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
   .t-role { font-size: 17.5px; font-weight: 600; color: var(--text); margin: 0; }
   .t-company { color: var(--accent); font-weight: 500; font-size: 15px; }
   .t-period { font-family: "JetBrains Mono", monospace; font-size: 12.5px; color: var(--muted); }
-  .t-badge-todo {
-    display: inline-block; font-size: 11px; font-family: "JetBrains Mono", monospace;
-    background: var(--accent-warning-dim); color: var(--accent-warning);
-    border: 1px solid var(--accent-warning); border-radius: 4px; padding: 1px 6px; margin-left: 6px;
-  }
+
   .t-bullets { margin: 10px 0 0; padding-left: 20px; color: var(--muted); font-size: 14.5px; }
   .t-bullets li { margin: 4px 0; }
 
@@ -315,6 +308,8 @@
   .skill h3 { margin: 0 0 10px; font: 600 13px "JetBrains Mono", monospace; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
   .skill .tags { padding-top: 0; }
 
+  .cert-top { flex-wrap: wrap; }
+  .cert-badge { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
   /* contact */
   .contact {
     margin-top: 72px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
@@ -323,7 +318,7 @@
   .contact h2 { margin-bottom: 8px; }
   .contact p { color: var(--muted); margin: 0 auto; max-width: 620px; font-size: 15px; }
   .email-container {
-    margin-top: 20px; display: inline-flex; align-items: center; gap: 8px;
+    margin-top: 20px; display: inline-flex; flex-wrap: wrap; justify-content: center; max-width: 100%; align-items: center; gap: 8px;
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
     padding: 8px 14px; font-family: "JetBrains Mono", monospace; font-size: 14.5px;
   }
@@ -757,10 +752,9 @@
     var eduContainer = document.getElementById('education-container');
     if (eduContainer && data.education) {
       eduContainer.innerHTML = data.education.map(function (ed) {
-        var todoBadge = ed.is_todo ? '<span class="t-badge-todo">' + esc(data.ui.badges.todo_tag || 'TODO') + '</span>' : '';
-        return '<div class="t-card' + (ed.is_todo ? ' is-todo' : '') + '">' +
+        return '<div class="t-card">' +
           '<div class="t-head">' +
-            '<div><span class="t-company">' + esc(ed.institution) + '</span>' + todoBadge + '</div>' +
+            '<div><span class="t-company">' + esc(ed.institution) + '</span>' + '</div>' +
             '<span class="t-period">' + esc(ed.period) + '</span>' +
           '</div>' +
           '<h3 class="t-role">' + esc(ed.degree) + '</h3>' +
@@ -774,10 +768,9 @@
     var expContainer = document.getElementById('experience-container');
     if (expContainer && data.experience) {
       expContainer.innerHTML = data.experience.map(function (exp) {
-        var todoBadge = exp.is_todo ? '<span class="t-badge-todo">' + esc(data.ui.badges.todo_tag || 'TODO') + '</span>' : '';
-        return '<div class="t-card' + (exp.is_todo ? ' is-todo' : '') + '">' +
+        return '<div class="t-card">' +
           '<div class="t-head">' +
-            '<div><span class="t-company">' + esc(exp.company) + '</span> · <span style="font-size: 13.5px; color: var(--muted);">' + esc(exp.location) + '</span>' + todoBadge + '</div>' +
+            '<div><span class="t-company">' + esc(exp.company) + '</span> · <span style="font-size: 13.5px; color: var(--muted);">' + esc(exp.location) + '</span>' + '</div>' +
             '<span class="t-period">' + esc(exp.period) + '</span>' +
           '</div>' +
           '<h3 class="t-role">' + esc(exp.role) + '</h3>' +
@@ -845,6 +838,7 @@
     if (ctfGrid && data.competencies && data.competencies.ctf_competitions) {
       ctfGrid.innerHTML = data.competencies.ctf_competitions.map(function (c) {
         var actionsHtml = '';
+        if (c.certificate_status) { actionsHtml += '<span class="cert-meta">' + esc(c.certificate_status) + '</span>'; }
         if (c.preview_image) {
           actionsHtml += '<button class="cert-preview-btn mono" type="button" data-full="' + esc(c.preview_image) + '" data-title="' + esc(c.name) + '" data-caption="' + esc(c.description) + '" data-ext="' + esc(c.original_file || '') + '">' +
             '🔍 ' + esc(data.ui.actions.view_preview || 'Ver evidencia') +
@@ -934,6 +928,8 @@
       emailMount.innerHTML = '✉️ <a href="mailto:' + fullEmail + '" id="email-link">' + fullEmail + '</a>' +
         '<button class="copy-btn mono" id="copy-email-btn" type="button">' + esc(data.ui.actions.copy_email || 'Copiar') + '</button>';
 
+      emailMount.innerHTML += '<span>' + esc(data.identity.phone_label) + ': <a href="tel:+51938764838">' + esc(data.identity.phone) + '</a></span>' +
+        '<span>WhatsApp: <a href="https://wa.me/51921378349" target="_blank" rel="noopener">' + esc(data.identity.whatsapp) + '</a></span>';
       var copyBtn = document.getElementById('copy-email-btn');
       if (copyBtn) {
         copyBtn.addEventListener('click', function () {

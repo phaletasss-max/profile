@@ -14,10 +14,10 @@
     "title": "사이버 보안 공학 전공 학생",
     "eyebrow": "// ciberseguridad · dev · maker",
     "location": "Arequipa, Perú",
-    "availability": "인턴십 및 채용 희망 · 페루 아레키파(대면) 및 원격 근무 가능",
+    "availability": "인턴십 및 정규직 근무 가능 (현장 / 원격 — 이주 가능)",
     "email_user": "phaletasss",
     "email_domain": "gmail.com",
-    "summary": "사이버 보안 공학 전공 학생 (SENATI 4학기 재학 중). 단순한 문제 해결을 넘어 커뮤니티를 위한 실습 랩, 마이크로컨트롤러 하드웨어, 실제 기업의 프로덕션 환경에서 작동하는 소프트웨어를 직접 제작합니다.",
+    "summary": "사이버 보안 공학 전공 학생 (SENATI 4학기 재학 중). 단순한 문제 해결을 넘어 커뮤니티를 위한 실습 랩, 마이크로컨트롤러 하드웨어, 실제 기업의 프로덕션 환경에서 작동하는 소프트웨어를 직접 제작합니다. | AI, 에이전트 및 자동화: Claude Code, Ollama, DeepSeek, Gemini, ChatGPT, Python 자동화, 데이터 분석 / Excel.",
     "links": {
       "github": "https://github.com/phaletasss-max",
       "linkedin": "https://www.linkedin.com/in/manvel-mendoz4-62993a383/",
@@ -52,7 +52,10 @@
         "name": "Inglés",
         "level": "Intermedio"
       }
-    ]
+    ],
+    "phone": "+51 938 764 838",
+    "whatsapp": "+51 921 378 349",
+    "phone_label": "전화 / 통화"
   },
   "ui": {
     "nav": {
@@ -94,8 +97,7 @@
       "featured": "주목 · 커뮤니티",
       "prototype": "프로토타입 · NASA Space Apps 2026",
       "course": "시스코 네트워킹 아카데미 수료 과정",
-      "badge_rank": "순위",
-      "todo_tag": "확인 대기 중"
+      "badge_rank": "순위"
     },
     "sections": {
       "about_num": "01",
@@ -145,16 +147,7 @@
       "degree": "사이버 보안 공학 (전문 기술 과정)",
       "period": "2025 – 2027 (previsto)",
       "status": "현재 4학기 재학 중",
-      "details": "네트워크 보안, 안전한 시스템 관리, 취약점 분석 및 침해 사고 대응에 집중된 전문 기술 커리큘럼.",
-      "is_todo": false
-    },
-    {
-      "institution": "기관 미정 (학점 인정 및 학사 편입)",
-      "degree": "사이버 보안 공학 학사 편입 과정",
-      "period": "Egreso previsto a fines de 2029",
-      "status": "TODO: 편입 대학 및 세부 커리큘럼 공식 확인 예정",
-      "details": "공인 사이버 보안 공학 전문 학사 학위 취득을 위한 학업 연계 계획.",
-      "is_todo": true
+      "details": "네트워크 보안, 안전한 시스템 관리, 취약점 분석 및 침해 사고 대응에 집중된 전문 기술 커리큘럼."
     }
   ],
   "experience": [
@@ -162,8 +155,7 @@
       "role": "Practicante Pre-Profesional de Ciberseguridad y Sistemas",
       "company": "Innovatech CMC E.I.R.L.",
       "location": "Arequipa, Perú",
-      "period": "TODO: Fechas por confirmar (Prácticas concluidas)",
-      "is_todo": true,
+      "period": "2025년 11월 – 현재",
       "bullets": [
         "Sistema de monitoreo y análisis de actividad con cámaras Hikvision (6 cámaras): pipeline RTSP + FFmpeg + YOLOv8 + tracking, implementando identidad lógica por persona (sin reconocimiento facial ni biométrico).",
         "Persistencia en base de datos SQLite (eventos, detecciones, sesiones), reconexión automática de streams, servicio watchdog de procesos, backups con verificación de integridad y rotación de logs.",
@@ -175,8 +167,7 @@
       "role": "Desarrollador Freelance & Proyectos para Clientes",
       "company": "Clientes en el sur del Perú",
       "location": "Arequipa, Perú",
-      "period": "TODO: Fechas por confirmar",
-      "is_todo": true,
+      "period": "2026년 1월 – 2026년 7월",
       "bullets": [
         {
           "text": "Crispitex: Sitio web corporativo con cotizador inmediato y logística hacia el sur del Perú para fábrica textil de napa siliconada y almohadas.",
@@ -191,7 +182,8 @@
           "url": "https://camitex-aqp.vercel.app/"
         },
         "Sistema unificado de impresión y etiquetado industrial para impresoras Godex (GE305) y Zebra con trazabilidad por escaneo de códigos QR y de barras.",
-        "Red de intercomunicadores industriales con ESP32 y Progressive Web App (PWA) para comunicación directa entre oficina y taller de planta."
+        "Red de intercomunicadores industriales con ESP32 y Progressive Web App (PWA) para comunicación directa entre oficina y taller de planta.",
+        "Innovatech의 요청에 따라 AI 및 자동화 도구로 배포와 통합을 수행했습니다."
       ]
     }
   ],
@@ -481,6 +473,15 @@
   "competencies": {
     "ctf_competitions": [
       {
+        "name": "BlackAlpaca CTF (BLKALP) 2026",
+        "official_event": "BlackAlpaca CTF (BLKALP) 2026",
+        "badge": "#20 (4,685 points) — Team ShadowBytes",
+        "score": "4,685",
+        "date": "Nov. 2026",
+        "description": "웹 익스플로잇, 암호학, 포렌식, 권한 상승 과제를 해결하여 상위 20위에 진입했습니다.",
+        "certificate_status": "인증서 발급 중"
+      },
+      {
         "id": "kasp-2026",
         "name": "Kaspersky{CTF} 2026",
         "official_event": "Kaspersky{CTF} — Regional Stage: North America, South America, Caribbean",
@@ -724,6 +725,18 @@
         "Vercel",
         "PWA",
         "RTSP / FFmpeg"
+      ]
+    },
+    {
+      "category": "AI, 에이전트 및 자동화",
+      "tags": [
+        "Claude Code",
+        "Ollama",
+        "DeepSeek",
+        "Gemini",
+        "ChatGPT",
+        "Python 자동화",
+        "데이터 분석 / Excel"
       ]
     }
   ],

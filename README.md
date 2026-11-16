@@ -15,3 +15,15 @@ Es un sitio estático de un solo archivo (`index.html`) sin build step, así que
 ## Local
 
 Abre `index.html` en el navegador.
+
+## Actualizar contenido y CV
+
+La base está en `i18n/es.json`; `scripts/build_translations.py` contiene las traducciones generales y `i18n/content-updates.json` los datos de contacto, disponibilidad, fechas y nuevos logros por idioma. Los JSON por idioma y `i18n/bundle.js` se regeneran con:
+
+```bash
+npm ci
+npm run build:translations
+npm run build:cv
+```
+
+El generador usa Playwright con Edge, Chrome o Chromium y la plantilla `cv-template.html`. Exporta los diez PDF a `cv/Manuel-Vilcazan-CV-<idioma>.pdf`, que es la ruta pública de descarga de este sitio. Las notas de evidencias se mantienen en `EVIDENCE.md`.

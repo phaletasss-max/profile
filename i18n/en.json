@@ -14,10 +14,10 @@
     "title": "Cybersecurity Engineering Student",
     "eyebrow": "// ciberseguridad · dev · maker",
     "location": "Arequipa, Perú",
-    "availability": "Available for internships and employment · On-site in Arequipa & Remote",
+    "availability": "Available for internships and full-time roles (On-site / Remote — Open to relocation)",
     "email_user": "phaletasss",
     "email_domain": "gmail.com",
-    "summary": "Cybersecurity Engineering student (4th semester, SENATI). I don't just solve challenges: I build hands-on labs for the community, microcontroller hardware, and software running in production for real businesses.",
+    "summary": "Cybersecurity Engineering student (4th semester, SENATI). I don't just solve challenges: I build hands-on labs for the community, microcontroller hardware, and software running in production for real businesses. | AI, Agents & Automation: Claude Code, Ollama, DeepSeek, Gemini, ChatGPT, Python automation, Data analysis / Excel.",
     "links": {
       "github": "https://github.com/phaletasss-max",
       "linkedin": "https://www.linkedin.com/in/manvel-mendoz4-62993a383/",
@@ -52,7 +52,10 @@
         "name": "Inglés",
         "level": "Intermedio"
       }
-    ]
+    ],
+    "phone": "+51 938 764 838",
+    "whatsapp": "+51 921 378 349",
+    "phone_label": "Phone / Calls"
   },
   "ui": {
     "nav": {
@@ -94,8 +97,7 @@
       "featured": "Featured · Community",
       "prototype": "Prototype · NASA Space Apps 2026",
       "course": "Cisco Networking Academy Course",
-      "badge_rank": "Rank",
-      "todo_tag": "Pending confirmation"
+      "badge_rank": "Rank"
     },
     "sections": {
       "about_num": "01",
@@ -145,16 +147,7 @@
       "degree": "Cybersecurity Engineering (Technical Program)",
       "period": "2025 – 2027 (previsto)",
       "status": "Currently in 4th semester",
-      "details": "Technical curriculum focused on network security, secure system administration, vulnerability analysis, and incident response.",
-      "is_todo": false
-    },
-    {
-      "institution": "Institution TBD (University Credit Transfer)",
-      "degree": "Bachelor's Degree in Cybersecurity Engineering",
-      "period": "Egreso previsto a fines de 2029",
-      "status": "TODO: Target institution and curriculum pending formal confirmation",
-      "details": "Academic continuity pathway towards formal university professional degree.",
-      "is_todo": true
+      "details": "Technical curriculum focused on network security, secure system administration, vulnerability analysis, and incident response."
     }
   ],
   "experience": [
@@ -162,8 +155,7 @@
       "role": "Practicante Pre-Profesional de Ciberseguridad y Sistemas",
       "company": "Innovatech CMC E.I.R.L.",
       "location": "Arequipa, Perú",
-      "period": "TODO: Fechas por confirmar (Prácticas concluidas)",
-      "is_todo": true,
+      "period": "Nov 2025 – Present",
       "bullets": [
         "Sistema de monitoreo y análisis de actividad con cámaras Hikvision (6 cámaras): pipeline RTSP + FFmpeg + YOLOv8 + tracking, implementando identidad lógica por persona (sin reconocimiento facial ni biométrico).",
         "Persistencia en base de datos SQLite (eventos, detecciones, sesiones), reconexión automática de streams, servicio watchdog de procesos, backups con verificación de integridad y rotación de logs.",
@@ -175,8 +167,7 @@
       "role": "Desarrollador Freelance & Proyectos para Clientes",
       "company": "Clientes en el sur del Perú",
       "location": "Arequipa, Perú",
-      "period": "TODO: Fechas por confirmar",
-      "is_todo": true,
+      "period": "Jan 2026 – Jul 2026",
       "bullets": [
         {
           "text": "Crispitex: Sitio web corporativo con cotizador inmediato y logística hacia el sur del Perú para fábrica textil de napa siliconada y almohadas.",
@@ -191,7 +182,8 @@
           "url": "https://camitex-aqp.vercel.app/"
         },
         "Sistema unificado de impresión y etiquetado industrial para impresoras Godex (GE305) y Zebra con trazabilidad por escaneo de códigos QR y de barras.",
-        "Red de intercomunicadores industriales con ESP32 y Progressive Web App (PWA) para comunicación directa entre oficina y taller de planta."
+        "Red de intercomunicadores industriales con ESP32 y Progressive Web App (PWA) para comunicación directa entre oficina y taller de planta.",
+        "Deployments and integrations delivered at Innovatech’s request using AI and automation tools."
       ]
     }
   ],
@@ -481,6 +473,15 @@
   "competencies": {
     "ctf_competitions": [
       {
+        "name": "BlackAlpaca CTF (BLKALP) 2026",
+        "official_event": "BlackAlpaca CTF (BLKALP) 2026",
+        "badge": "#20 (4,685 points) — Team ShadowBytes",
+        "score": "4,685",
+        "date": "Nov. 2026",
+        "description": "Top 20 finish solving web exploitation, cryptography, forensics, and privilege escalation challenges.",
+        "certificate_status": "Certificate pending issuance"
+      },
+      {
         "id": "kasp-2026",
         "name": "Kaspersky{CTF} 2026",
         "official_event": "Kaspersky{CTF} — Regional Stage: North America, South America, Caribbean",
@@ -724,6 +725,18 @@
         "Vercel",
         "PWA",
         "RTSP / FFmpeg"
+      ]
+    },
+    {
+      "category": "AI, Agents & Automation",
+      "tags": [
+        "Claude Code",
+        "Ollama",
+        "DeepSeek",
+        "Gemini",
+        "ChatGPT",
+        "Python automation",
+        "Data analysis / Excel"
       ]
     }
   ],

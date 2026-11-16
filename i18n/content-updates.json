@@ -1,0 +1,122 @@
+{
+  "es": {
+    "availability": "Disponible para prácticas pre-profesionales y empleo (Presencial / Remoto — Disponibilidad de reubicación)",
+    "ai_category": "IA, Agentes y Automatización",
+    "automation": "Automatización con Python",
+    "analysis": "Análisis de datos / Excel",
+    "phone_label": "Teléfono / Llamadas",
+    "intern_period": "Nov. 2025 – Actualidad",
+    "freelance_period": "Ene. 2026 – Jul. 2026",
+    "delivery": "Despliegues e integraciones ejecutados bajo requerimiento de Innovatech, apalancando herramientas de IA y automatización.",
+    "achievement": "Clasificación en el Top 20 resolviendo desafíos de explotación web, criptografía, análisis forense y escalada de privilegios.",
+    "certificate_status": "Certificado en emisión"
+  },
+  "en": {
+    "availability": "Available for internships and full-time roles (On-site / Remote — Open to relocation)",
+    "ai_category": "AI, Agents & Automation",
+    "automation": "Python automation",
+    "analysis": "Data analysis / Excel",
+    "phone_label": "Phone / Calls",
+    "intern_period": "Nov 2025 – Present",
+    "freelance_period": "Jan 2026 – Jul 2026",
+    "delivery": "Deployments and integrations delivered at Innovatech’s request using AI and automation tools.",
+    "achievement": "Top 20 finish solving web exploitation, cryptography, forensics, and privilege escalation challenges.",
+    "certificate_status": "Certificate pending issuance"
+  },
+  "pt": {
+    "availability": "Disponível para estágio e emprego (Presencial / Remoto — Disponibilidade para mudança)",
+    "ai_category": "IA, Agentes e Automação",
+    "automation": "Automação com Python",
+    "analysis": "Análise de dados / Excel",
+    "phone_label": "Telefone / Chamadas",
+    "intern_period": "Nov. 2025 – Atualidade",
+    "freelance_period": "Jan. 2026 – Jul. 2026",
+    "delivery": "Implantações e integrações realizadas a pedido da Innovatech com ferramentas de IA e automação.",
+    "achievement": "Top 20 em desafios de exploração web, criptografia, análise forense e escalada de privilégios.",
+    "certificate_status": "Certificado em emissão"
+  },
+  "fr": {
+    "availability": "Disponible pour des stages et un emploi (Sur site / À distance — Mobilité géographique)",
+    "ai_category": "IA, Agents et Automatisation",
+    "automation": "Automatisation avec Python",
+    "analysis": "Analyse de données / Excel",
+    "phone_label": "Téléphone / Appels",
+    "intern_period": "Nov. 2025 – Aujourd’hui",
+    "freelance_period": "Janv. 2026 – Juil. 2026",
+    "delivery": "Déploiements et intégrations réalisés à la demande d’Innovatech avec des outils d’IA et d’automatisation.",
+    "achievement": "Top 20 grâce à des défis d’exploitation web, de cryptographie, d’analyse forensique et d’élévation de privilèges.",
+    "certificate_status": "Certificat en cours d’émission"
+  },
+  "de": {
+    "availability": "Verfügbar für Praktika und Festanstellungen (Vor Ort / Remote — Umzugsbereit)",
+    "ai_category": "KI, Agenten und Automatisierung",
+    "automation": "Automatisierung mit Python",
+    "analysis": "Datenanalyse / Excel",
+    "phone_label": "Telefon / Anrufe",
+    "intern_period": "Nov. 2025 – Heute",
+    "freelance_period": "Jan. 2026 – Juli 2026",
+    "delivery": "Bereitstellungen und Integrationen im Auftrag von Innovatech mit KI- und Automatisierungswerkzeugen.",
+    "achievement": "Top 20 durch Aufgaben zu Web-Exploitation, Kryptografie, Forensik und Rechteausweitung.",
+    "certificate_status": "Zertifikat wird ausgestellt"
+  },
+  "it": {
+    "availability": "Disponibile per tirocini e impiego (In sede / Da remoto — Disponibile al trasferimento)",
+    "ai_category": "IA, Agenti e Automazione",
+    "automation": "Automazione con Python",
+    "analysis": "Analisi dati / Excel",
+    "phone_label": "Telefono / Chiamate",
+    "intern_period": "Nov. 2025 – Presente",
+    "freelance_period": "Gen. 2026 – Lug. 2026",
+    "delivery": "Distribuzioni e integrazioni eseguite su richiesta di Innovatech con strumenti di IA e automazione.",
+    "achievement": "Top 20 risolvendo sfide di sfruttamento web, crittografia, analisi forense ed escalation dei privilegi.",
+    "certificate_status": "Certificato in emissione"
+  },
+  "zh": {
+    "availability": "可参加实习及全职工作（现场 / 远程 — 可异地搬迁）",
+    "ai_category": "人工智能、智能体与自动化",
+    "automation": "Python 自动化",
+    "analysis": "数据分析 / Excel",
+    "phone_label": "电话 / 通话",
+    "intern_period": "2025年11月 – 至今",
+    "freelance_period": "2026年1月 – 2026年7月",
+    "delivery": "应 Innovatech 要求，使用人工智能与自动化工具完成部署和集成。",
+    "achievement": "通过解决 Web 利用、密码学、取证分析和权限提升挑战，跻身前20名。",
+    "certificate_status": "证书签发中"
+  },
+  "ja": {
+    "availability": "インターンシップ・就職可能（出社 / リモート — 転居可能）",
+    "ai_category": "AI・エージェント・自動化",
+    "automation": "Pythonによる自動化",
+    "analysis": "データ分析 / Excel",
+    "phone_label": "電話 / 通話",
+    "intern_period": "2025年11月 – 現在",
+    "freelance_period": "2026年1月 – 2026年7月",
+    "delivery": "Innovatech の依頼により、AIと自動化ツールを活用してデプロイと統合を実施。",
+    "achievement": "Webエクスプロイト、暗号、フォレンジック、権限昇格の課題を解きトップ20入り。",
+    "certificate_status": "証明書発行待ち"
+  },
+  "ko": {
+    "availability": "인턴십 및 정규직 근무 가능 (현장 / 원격 — 이주 가능)",
+    "ai_category": "AI, 에이전트 및 자동화",
+    "automation": "Python 자동화",
+    "analysis": "데이터 분석 / Excel",
+    "phone_label": "전화 / 통화",
+    "intern_period": "2025년 11월 – 현재",
+    "freelance_period": "2026년 1월 – 2026년 7월",
+    "delivery": "Innovatech의 요청에 따라 AI 및 자동화 도구로 배포와 통합을 수행했습니다.",
+    "achievement": "웹 익스플로잇, 암호학, 포렌식, 권한 상승 과제를 해결하여 상위 20위에 진입했습니다.",
+    "certificate_status": "인증서 발급 중"
+  },
+  "ru": {
+    "availability": "Открыт к стажировкам и постоянной работе (Офис / Удалённо — Готов к переезду)",
+    "ai_category": "ИИ, агенты и автоматизация",
+    "automation": "Автоматизация на Python",
+    "analysis": "Анализ данных / Excel",
+    "phone_label": "Телефон / Звонки",
+    "intern_period": "Нояб. 2025 – настоящее время",
+    "freelance_period": "Янв. 2026 – июль 2026",
+    "delivery": "Развёртывания и интеграции выполнены по запросу Innovatech с помощью ИИ и автоматизации.",
+    "achievement": "Топ-20 по итогам задач на веб-эксплуатацию, криптографию, форензику и повышение привилегий.",
+    "certificate_status": "Сертификат оформляется"
+  }
+}

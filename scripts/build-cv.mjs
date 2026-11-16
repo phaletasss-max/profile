@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { execFileSync } from 'node:child_process';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -71,6 +71,8 @@ function renderCvHtml(lang, data) {
       <div class="cv-title">${escapeHtml(data.identity.title)}</div>
       <div class="contact-line">
         <span>📧 <a href="mailto:${email}">${email}</a></span>
+        <span>${escapeHtml(data.identity.phone_label)}: <a href="tel:+51938764838">${escapeHtml(data.identity.phone)}</a></span>
+        <span>WhatsApp: <a href="https://wa.me/51921378349">${escapeHtml(data.identity.whatsapp)}</a></span>
         <span>🔗 <a href="${data.identity.links.linkedin}" target="_blank">LinkedIn</a></span>
         <span>💻 <a href="${data.identity.links.github}" target="_blank">GitHub</a></span>
         <span>🛡️ <a href="${data.identity.links.tryhackme}" target="_blank">TryHackMe</a></span>
@@ -110,7 +112,7 @@ function renderCvHtml(lang, data) {
             <span class="item-period">${escapeHtml(exp.period)}</span>
           </div>
           <ul class="bullets">
-            ${exp.bullets.map(b => `<li>${escapeHtml(b)}</li>`).join('')}
+            ${exp.bullets.map(b => `<li>${escapeHtml(typeof b === 'string' ? b : b.text)}</li>`).join('')}
           </ul>
         </div>
       `).join('')}
@@ -152,6 +154,12 @@ function renderCvHtml(lang, data) {
           <em>${escapeHtml(data.competencies.platforms.portswigger.tools)}</em>
         </li>
       </ul>
+
+    </section>
+
+    <section class="htb-summary">
+      <h2>Hack The Box · resolution</h2>
+      <p>${escapeHtml(data.competencies.platforms.hackthebox.description)}</p>
       <div class="note-box">${escapeHtml(data.competencies.ctf_writeups.honesty_note)}</div>
     </section>
 
@@ -231,7 +239,7 @@ async function buildCvForLang(lang) {
     }));
 
     const page = await browser.newPage();
-    await page.goto(`file://${tempHtmlPath}`, { waitUntil: 'networkidle' });
+    await page.goto(pathToFileURL(tempHtmlPath).href, { waitUntil: 'networkidle' });
     await page.pdf({
       path: outPdfPath,
       format: 'A4',
@@ -276,7 +284,7 @@ async function buildCvForLang(lang) {
       console.log(`[Edge Headless] Generated: cv/Manuel-Vilcazan-CV-${lang}.pdf`);
       generated = true;
     } else {
-      console.error(`Could not generate PDF for ${lang}: No browser found.`);
+      throw new Error(`Could not generate PDF for ${lang}: No browser found.`);
     }
   }
 

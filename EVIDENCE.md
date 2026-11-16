@@ -4,20 +4,12 @@ Este documento recopila todos los datos, evidencias y precisiones pendientes de 
 
 ---
 
-## 1. Fechas de Experiencia Laboral
-- [ ] **Innovatech CMC E.I.R.L. (Prácticas pre-profesionales)**:
-  - Estado actual: Marcado como concluido con `TODO: Fechas por confirmar`.
-  - Acción requerida: Definir mes y año de inicio y término exactos (ejemplo: *Enero 2026 – Junio 2026*).
-- [ ] **Proyectos Freelance & Clientes (Crispitex, AlSimTex, Camitex, Etiquetado, Intercomunicadores)**:
-  - Estado actual: Agrupados bajo la sección de experiencia con `TODO: Fechas por confirmar`.
-  - Acción requerida: Indicar rango de fechas o períodos de desarrollo y puesta en marcha para cada cliente.
+## Datos confirmados
 
----
-
-## 2. Institución de Convalidación Universitaria
-- [ ] **Convalidación a Ingeniería en Ciberseguridad (Egreso previsto: 2029)**:
-  - Estado actual: Listado como meta académica con la etiqueta `"Institución por definir (Convalidación)"` y estatus `TODO`.
-  - Acción requerida: Una vez formalizado el convenio o matrícula universitaria, actualizar el nombre de la universidad en `i18n/*.json` y en `cv-template.html`.
+- Innovatech: noviembre de 2025 – actualidad.
+- Proyectos para clientes bajo requerimiento de Innovatech: enero – julio de 2026.
+- Formación publicada: SENATI CFP Arequipa, 2025 – 2027 (previsto), 4.º ciclo.
+- BlackAlpaca CTF 2026: puesto #20, 4,685 puntos, ShadowBytes; certificado en emisión.
 
 ---
 
